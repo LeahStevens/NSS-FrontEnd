@@ -1,0 +1,48 @@
+/* this is a comment*/
+/*selecting by id #, selecting by class .
+*/
+#diva
+{
+  color:#ff0000;
+}
+.divs
+{
+  background-color: yellow;
+}
+p /*selecting by tag*/
+{
+ color:green;
+}
+a[href*="yahoo"]
+{
+  background-color: green;
+}
+a[href$="msn.com"]
+{
+  background-color: red;
+}
+a[href="http://google.com"]
+{
+  background-color: yellow;
+}
+/*odd number of span (+1) even with just 2n*/
+ul > li:nth-child(3) > span:nth-child(2n+1)
+{
+  font-size: 25px;
+}
+ul > li:nth-child(3) > span:last-child
+{
+  background-color: yellow;
+}
+a:hover
+{
+  background-color: white;
+}
+#span2
+{
+  background-color: green;
+}
+span
+{
+  background-color: red;
+}
