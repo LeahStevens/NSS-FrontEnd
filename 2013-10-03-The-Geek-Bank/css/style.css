@@ -1,0 +1,22 @@
+.funny {
+  background-color: blue;
+  color: yellow;
+  font-size: 12px;
+  border: 1px dashed orange; }
+
+.serious {
+  background-color: red;
+  color: yellow;
+  font-size: 55px;
+  border: 2px solid orange; }
+
+ul {
+  float: left;
+  width: 200px;
+  list-style-type: none; }
+
+#deposit_items {
+  color: green; }
+
+#withdraw_items {
+  color: red; }

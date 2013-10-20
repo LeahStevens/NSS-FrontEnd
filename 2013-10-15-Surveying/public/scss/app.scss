@@ -1,0 +1,24 @@
+html, body, #left, #map-canvas
+{
+  height: 100%;
+}
+
+#left, #right
+{
+  float: left;
+}
+
+#left
+{
+  width: 90%;
+}
+
+#right
+{
+  width: 10%;
+}
+
+#map-canvas
+{
+  width: 100%;
+}

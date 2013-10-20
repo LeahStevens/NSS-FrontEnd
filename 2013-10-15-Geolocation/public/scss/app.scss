@@ -1,0 +1,31 @@
+html, body, #left, #map-canvas
+{
+  height: 100%;
+}
+
+body
+{
+  background-color: rgb(179,209,255);
+
+}
+
+#left, #right
+{
+ float: left;
+}
+#left
+{
+  width: 90%;
+}
+#right
+{
+  width: 10%;
+  padding-top: 40px;
+  padding-left: 20px;
+
+}
+
+#map-canvas
+{
+  width: 100%;
+}

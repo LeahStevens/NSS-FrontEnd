@@ -1,0 +1,58 @@
+!!! 5
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+%head
+  %meta{charset: "utf-8"}
+  %meta{name: "viewport", content: "width=device-width"}
+  %title Foundation 4
+  %link{rel: "stylesheet", href: "css/normalize.css"}
+  %link{rel: "stylesheet", href: "css/foundation.css"}
+  %link{rel: "stylesheet", href: "css/app.css"}
+  %script{src: "js/vendor/custom.modernizr.js"}
+%body
+  .row
+    .small-12.columns
+      %h1 Stock Market App
+  .row
+    .small-2.columns
+      %input#symbol{type: 'text', placeholder: 'Symbol'}
+    .small-2.columns
+      %input#quantity{type: 'text', placeholder: 'Quantity'}
+    .small-2.columns
+      %input#buy.button.round.small.success{type: 'button', value: 'Buy Stocks'}
+    .small-6.columns
+  .row
+    .small-3.columns
+      %input#funds{type: 'text', placeholder: 'Funds'}
+    .small-3.columns
+      %input#addFunds.button.round.small{type: 'button', value: 'Add Funds'}
+    .small-6.columns
+  .row
+    .small-6.columns
+      %h4.subtitle#account Account Balance:
+      %h3 Stock List
+    .small-3.columns
+      %input#updateInterval{type: 'text', placeholder: 'Seconds'}
+    .small-3.columns
+      %input#setTimer.button.round.small{type: 'button', value:'Set Timer'}
+  .row
+    .small-12.columns
+      %table#table
+        %th#name Name
+        %th#symbol Symbol
+        %th#quote Quote
+        %th#purchased Purchased
+        %th#currentPrice Current Price
+  .row
+    .small-10.columns
+    .small-2.columns
+      %h5.subtitle#Totals Totals
+
+
+
+  %script{src: 'js/vendor/jquery-1.10.2.js'}
+  %script{src: 'js/vendor/foundation.min.js'}
+  %script{src: 'js/vendor/underscore.js'}
+  %script{src: 'js/vendor/moment.min.js'}
+  %script{src: 'https://cdn.firebase.com/v0/firebase.js'}
+  %script{src: 'js/app/app.js'}

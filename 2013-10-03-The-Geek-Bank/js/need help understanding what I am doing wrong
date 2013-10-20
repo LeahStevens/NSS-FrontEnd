@@ -1,0 +1,29 @@
+'use strict';
+$(document).ready(initialize);
+
+function initialize()
+{
+  $('#img_button').click(addImage);
+  $('#set_initial_balance').click(setInitialBalance);
+  $('#deposit').click(depositAmount);
+  $('#withdraw').click(withdrawAmount);
+}
+
+function addImage(){
+  var $imgUrl = $('#img_url');
+  var $div = $('<div>');
+  $('#img').append($div.src=($imgUrl));
+}
+
+function setInitialBalance(){
+  var $balance = $('#start_balance');
+  var $endBalance = parseInt($balance);
+  $('#balance').text($endBalance);
+}
+
+function depositAmount(){
+
+}
+function withdrawAmount(){
+
+}

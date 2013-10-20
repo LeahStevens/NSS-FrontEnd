@@ -1,0 +1,19 @@
+.photo {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 1px dashed black;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.selectedPhoto {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 10px;
+}
