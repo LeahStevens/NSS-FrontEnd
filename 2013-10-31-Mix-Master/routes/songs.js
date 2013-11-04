@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Song = mongoose.model('Song');
+var Genre = mongoose.model('Genre');
 /*
  * GET /songs
  */
@@ -7,7 +8,7 @@ var Song = mongoose.model('Song');
 exports.index = function(req, res){
   Song.find(function(err,songs){
   res.render('songs/index', {title: 'Songs', songs: songs});
-  })
+  });
 };
 
 
@@ -17,7 +18,9 @@ exports.index = function(req, res){
  */
 
 exports.new = function(req, res){
-  res.render('songs/new', {title: 'New Song'});
+  Genre.find(function(err, genres){
+    res.render('songs/new', {title: 'New Song', genres: genres});
+  });
 };
 
 
@@ -25,10 +28,19 @@ exports.new = function(req, res){
 /*
  * GET /songs/show
  */
-
 exports.show = function(req, res){
-  res.render('songs/show', {title: 'Showing Song'});
-};
+  Song.findById(req.params.id, function(err,song){
+  res.render('songs/show', {title: 'Songs', song: song});
+  });
+}
+/*
+ * Delete /songs/:id
+ */
+exports.delete = function(req, res){
+  Song.findByIdAndRemove(req.params.id, function(err,songs){
+  res.redirect('/songs');
+  });
+}
 
 
 /*
@@ -38,7 +50,7 @@ exports.show = function(req, res){
 exports.create = function(req, res){
   console.log('---before---');
   console.log(req.body);
-  req.body.genres = req.body.genres.split(', ');
+  // req.body.genres = req.body.genres.split(', ');
   new Song(req.body).save(function(err, song, count){
     console.log('---after---');
     console.log(song);

@@ -1,0 +1,31 @@
+extends ../template/layout
+include ../mixins/form-helper
+
+block content
+  .row
+    .small-12.columns
+      h2.subheader New Artist
+  .row
+    .small-12.columns
+      form(action='/artists', method='post')
+        fieldset
+          legend New Artist
+          .row
+            .small-4.columns
+              mixin field( null,'name', 'Name', null, null, true)
+            .small-4.columns
+              mixin field(null, 'website', 'Website')
+            .small-4.columns
+              mixin field (null, 'photo', 'Artist Photo')
+          .row
+            .small-12.columns
+              label(for='bio') Biography:
+              textarea#bio(name='bio', id='bio')
+          .row
+            .small-12.columns
+              each song in songs
+                input(type='checkbox', value=song.id, name='songs')
+                span= song.title
+          .row
+            .small-2.columns.small-offset-8: a#pink.button.radius.alert.small.expand(href='/artists') Cancel
+            .small-2.columns: button#lightgreen.radius.success.small.expand(type='submit') Add Artist

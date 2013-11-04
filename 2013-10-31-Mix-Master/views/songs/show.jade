@@ -1,6 +1,24 @@
 extends ../template/layout
 
+
 block content
   .row
     .small-12.columns
       h2 Show Song
+  .row
+    .small-12.content
+      .song
+        h3= song.title
+        audio(src='/audios/#{song.filename}', controls=true)
+        h4= song.duratio
+        p= song.lyrics
+        img(src=song.art)
+        ul
+          each genre in song.genres
+            li= genre
+        p= song.createdAt
+  .row
+    .show-12.columns
+      form(action='/songs/#{song.id}', method='post')
+        input(type='hidden', name='_method', value='delete')
+        button.tiny.alert(type='submit') Delete
