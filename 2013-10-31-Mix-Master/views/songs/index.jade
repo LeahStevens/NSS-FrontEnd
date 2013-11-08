@@ -13,3 +13,7 @@ block content
                 a(href='/songs/#{song.id}')= song.title
               audio(src='/audios/#{song.filename}', controls=true)
               img#bandArt(src='/images/#{song.art}')
+              ul
+                each genre in song.genres
+                  li= genre.name
+

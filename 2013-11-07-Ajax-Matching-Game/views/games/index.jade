@@ -1,0 +1,39 @@
+extends ../template/layout
+include ../mixins/form-helper
+
+
+block content
+  .row
+    .small-12.columns
+      h1 Matching Game
+  .row
+    .small-3.columns
+      form#game(action='/games/start', method='post')
+        fieldset
+          legend New Game
+          .row
+            .small-12.columns
+              mixin field(null, 'player', 'Player', null, 'Bob', true)
+          .row
+            .small-12.columns
+              mixin field(null, 'number', 'Number', null, '5', null)
+          .row
+            .small-12.columns
+              button#start.success Start
+    .small-9.columns
+      .row
+        .small-4.columns
+          div#player Player:
+        .small-4.columns
+          div#number Number:
+        .small-4.columns
+          div#timer Time:
+      .row
+        .small-12.columns
+          #cards
+
+
+
+
+
+

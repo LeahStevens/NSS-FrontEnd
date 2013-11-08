@@ -10,4 +10,7 @@ block content
           each artist in artists
             .artist
               h3= artist.name
+                ul
+                  each song in artist.songs
+                    li= song.title
               img(src='/artists/#{artist.photo}')

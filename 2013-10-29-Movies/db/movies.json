@@ -1,0 +1,26 @@
+[
+{"title":"LOTR",
+"image": "http://cloud-2.steampowered.com/ugc/848075659443186608/772F8EEDF08CBAE561FB640181E75A6BE4062703/",
+"color": "yellow",
+"rated": "e",
+"studio": "Studio",
+"gross": 5000000000000,
+"numTheatres": 4323
+},
+{"title":"StarWars",
+"image": "http://sciencefiction.com/wp-content/uploads/2013/06/star-wars-wallpaper-5.jpg",
+"color": "blue",
+"rated": "e",
+"studio": "LucasFilms",
+"gross": 99999999999999,
+"numTheatres": 103790
+},
+{"title":"StarGate",
+"image": "http://spinoff.comicbookresources.com/wp-content/uploads/2013/09/stargate.jpg",
+"color": "green",
+"rated": "e",
+"studio": "Studio",
+"gross": 500,
+"numTheatres": 3
+}
+]

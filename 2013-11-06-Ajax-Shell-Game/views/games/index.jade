@@ -1,0 +1,24 @@
+extends ../template/layout
+include ../mixins/form-helper
+
+block content
+  .row
+    .small-12.columns
+      h1 Shell Game
+  .row
+    .small-12.columns
+      form#game(action='/games/start', method='post')
+        fieldset
+          legend New Game
+          .row
+            .small-6.columns
+              .button#game New Game
+            .small-6.columns
+              mixin field(null, 'name', 'Name', 'Bob', true)
+  .row
+    .small-4.columns
+    .small-8.columns
+      #cups
+        each cup in [0,1,2]
+          .cup(data-position=cup)
+            img(src='/images/box.jpg')

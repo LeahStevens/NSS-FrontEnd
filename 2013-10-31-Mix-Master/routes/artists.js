@@ -7,8 +7,8 @@ var Artist = mongoose.model('Artist');
  */
 
 exports.index = function(req, res){
-  Artist.find(function(err,artists){
-  res.render('artists/index', {title: 'Artists', artists: artists});
+  Artist.find().populate('songs').exec(function(err,artists){
+    res.render('artists/index', {title: 'Artists', artists: artists});
   });
 };
 

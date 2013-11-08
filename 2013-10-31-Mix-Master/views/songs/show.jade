@@ -10,12 +10,9 @@ block content
       .song
         h3= song.title
         audio(src='/audios/#{song.filename}', controls=true)
-        h4= song.duratio
+        h4= song.duration
         p= song.lyrics
         img(src=song.art)
-        ul
-          each genre in song.genres
-            li= genre
         p= song.createdAt
   .row
     .show-12.columns

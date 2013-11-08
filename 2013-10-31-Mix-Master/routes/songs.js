@@ -6,8 +6,8 @@ var Genre = mongoose.model('Genre');
  */
 
 exports.index = function(req, res){
-  Song.find(function(err,songs){
-  res.render('songs/index', {title: 'Songs', songs: songs});
+  Song.find().populate('genres').exec(function(err,songs){
+    res.render('songs/index', {title: 'Songs', songs: songs});
   });
 };
 
@@ -48,12 +48,11 @@ exports.delete = function(req, res){
  */
 
 exports.create = function(req, res){
-  console.log('---before---');
-  console.log(req.body);
-  // req.body.genres = req.body.genres.split(', ');
   new Song(req.body).save(function(err, song, count){
-    console.log('---after---');
-    console.log(song);
-    res.redirect('/songs');
+    if(err){
+      res.render('songs/new', {title: 'New Song', errors: err.errors, song: new Song()});
+    }else{
+      res.redirect('/songs');
+    }
   });
 };

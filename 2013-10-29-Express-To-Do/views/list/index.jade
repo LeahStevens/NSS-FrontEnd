@@ -1,0 +1,16 @@
+extends ../template/layout
+
+block content
+  h1= title
+  a(href='/') Home
+  a(href='/list/new') New
+  if item
+    table#list
+      thead: tr
+        each value, property in item
+          th= property
+      tbody
+        each item, index in list
+          tr(id= '#{item.name}-#{index}', style='background-color:#{item.color}')
+            each value, property in item
+              td(class=property)= value

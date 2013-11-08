@@ -1,0 +1,2219 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 warn package.json nss-automation@0.0.1 No description
+5 warn package.json nss-automation@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/leah/Code/NSS-FrontEnd/Test-Grunt-Working',
+7 verbose install   [ 'grunt', 'grunt-contrib-qunit', 'grunt-contrib-connect' ] ]
+8 info preinstall nss-automation@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'grunt@0.4.x', null ]
+11 verbose cache add name=undefined spec="grunt@0.4.x" args=["grunt@0.4.x",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt@0.4.x',
+12 verbose parsed url   path: 'grunt@0.4.x',
+12 verbose parsed url   href: 'grunt@0.4.x' }
+13 verbose cache add name="grunt" spec="0.4.x" args=["grunt","0.4.x"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '0.4.x',
+14 verbose parsed url   path: '0.4.x',
+14 verbose parsed url   href: '0.4.x' }
+15 verbose addNamed [ 'grunt', '0.4.x' ]
+16 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+17 verbose cache add [ 'grunt-contrib-qunit@~0.3.0', null ]
+18 verbose cache add name=undefined spec="grunt-contrib-qunit@~0.3.0" args=["grunt-contrib-qunit@~0.3.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'grunt-contrib-qunit@~0.3.0',
+19 verbose parsed url   path: 'grunt-contrib-qunit@~0.3.0',
+19 verbose parsed url   href: 'grunt-contrib-qunit@~0.3.0' }
+20 verbose cache add name="grunt-contrib-qunit" spec="~0.3.0" args=["grunt-contrib-qunit","~0.3.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '~0.3.0',
+21 verbose parsed url   path: '~0.3.0',
+21 verbose parsed url   href: '~0.3.0' }
+22 verbose addNamed [ 'grunt-contrib-qunit', '~0.3.0' ]
+23 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+24 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+25 verbose lock grunt@0.4.x /home/leah/.npm/6aebe2f8-grunt-0-4-x.lock
+26 silly lockFile fa37abc3-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@~0.3.0
+27 verbose lock grunt-contrib-qunit@~0.3.0 /home/leah/.npm/fa37abc3-grunt-contrib-qunit-0-3-0.lock
+28 verbose cache add [ 'grunt-contrib-connect@~0.5.0', null ]
+29 verbose cache add name=undefined spec="grunt-contrib-connect@~0.5.0" args=["grunt-contrib-connect@~0.5.0",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'grunt-contrib-connect@~0.5.0',
+30 verbose parsed url   path: 'grunt-contrib-connect@~0.5.0',
+30 verbose parsed url   href: 'grunt-contrib-connect@~0.5.0' }
+31 verbose cache add name="grunt-contrib-connect" spec="~0.5.0" args=["grunt-contrib-connect","~0.5.0"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '~0.5.0',
+32 verbose parsed url   path: '~0.5.0',
+32 verbose parsed url   href: '~0.5.0' }
+33 verbose addNamed [ 'grunt-contrib-connect', '~0.5.0' ]
+34 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+35 silly lockFile bc7bae3b-grunt-contrib-connect-0-5-0 grunt-contrib-connect@~0.5.0
+36 verbose lock grunt-contrib-connect@~0.5.0 /home/leah/.npm/bc7bae3b-grunt-contrib-connect-0-5-0.lock
+37 silly addNameRange { name: 'grunt', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+38 silly addNameRange { name: 'grunt-contrib-qunit',
+38 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+38 silly addNameRange   hasData: false }
+39 silly addNameRange { name: 'grunt-contrib-connect',
+39 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+39 silly addNameRange   hasData: false }
+40 verbose url raw grunt
+41 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+42 verbose url resolved https://registry.npmjs.org/grunt
+43 info trying registry request attempt 1 at 12:42:45
+44 verbose etag "32P2O343QOTG1DN4JAL1WV0DN"
+45 http GET https://registry.npmjs.org/grunt
+46 verbose url raw grunt-contrib-qunit
+47 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-qunit' ]
+48 verbose url resolved https://registry.npmjs.org/grunt-contrib-qunit
+49 info trying registry request attempt 1 at 12:42:45
+50 verbose etag "1EPFZH9IPCY0OFQNUPT4UM0S0"
+51 http GET https://registry.npmjs.org/grunt-contrib-qunit
+52 verbose url raw grunt-contrib-connect
+53 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+54 verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+55 info trying registry request attempt 1 at 12:42:45
+56 verbose etag "50NTEBO70LWH8L4KN7BSMMYRL"
+57 http GET https://registry.npmjs.org/grunt-contrib-connect
+58 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+59 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+60 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+61 info trying registry request attempt 2 at 12:43:35
+62 verbose etag "32P2O343QOTG1DN4JAL1WV0DN"
+63 http GET https://registry.npmjs.org/grunt
+64 info trying registry request attempt 2 at 12:43:35
+65 verbose etag "1EPFZH9IPCY0OFQNUPT4UM0S0"
+66 http GET https://registry.npmjs.org/grunt-contrib-qunit
+67 info trying registry request attempt 2 at 12:43:35
+68 verbose etag "50NTEBO70LWH8L4KN7BSMMYRL"
+69 http GET https://registry.npmjs.org/grunt-contrib-connect
+70 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+71 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+72 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+73 info trying registry request attempt 3 at 12:45:15
+74 verbose etag "32P2O343QOTG1DN4JAL1WV0DN"
+75 http GET https://registry.npmjs.org/grunt
+76 info trying registry request attempt 3 at 12:45:15
+77 verbose etag "1EPFZH9IPCY0OFQNUPT4UM0S0"
+78 http GET https://registry.npmjs.org/grunt-contrib-qunit
+79 info trying registry request attempt 3 at 12:45:15
+80 verbose etag "50NTEBO70LWH8L4KN7BSMMYRL"
+81 http GET https://registry.npmjs.org/grunt-contrib-connect
+82 silly registry.get cb [ 304, undefined ]
+83 verbose etag grunt from cache
+84 silly registry.get cb [ 304, undefined ]
+85 verbose etag grunt-contrib-qunit from cache
+86 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+87 silly addNameRange versions [ 'grunt',
+87 silly addNameRange   [ '0.1.0',
+87 silly addNameRange     '0.1.1',
+87 silly addNameRange     '0.1.2',
+87 silly addNameRange     '0.2.0',
+87 silly addNameRange     '0.2.1',
+87 silly addNameRange     '0.2.2',
+87 silly addNameRange     '0.2.3',
+87 silly addNameRange     '0.2.4',
+87 silly addNameRange     '0.2.5',
+87 silly addNameRange     '0.2.6',
+87 silly addNameRange     '0.2.7',
+87 silly addNameRange     '0.2.8',
+87 silly addNameRange     '0.2.9',
+87 silly addNameRange     '0.2.10',
+87 silly addNameRange     '0.2.11',
+87 silly addNameRange     '0.2.12',
+87 silly addNameRange     '0.2.13',
+87 silly addNameRange     '0.2.14',
+87 silly addNameRange     '0.2.15',
+87 silly addNameRange     '0.3.0',
+87 silly addNameRange     '0.3.1',
+87 silly addNameRange     '0.3.2',
+87 silly addNameRange     '0.3.3',
+87 silly addNameRange     '0.3.4',
+87 silly addNameRange     '0.3.5',
+87 silly addNameRange     '0.3.6',
+87 silly addNameRange     '0.3.7',
+87 silly addNameRange     '0.3.8',
+87 silly addNameRange     '0.3.9',
+87 silly addNameRange     '0.3.10',
+87 silly addNameRange     '0.3.11',
+87 silly addNameRange     '0.3.12',
+87 silly addNameRange     '0.3.13',
+87 silly addNameRange     '0.3.14',
+87 silly addNameRange     '0.3.15',
+87 silly addNameRange     '0.3.16',
+87 silly addNameRange     '0.3.17',
+87 silly addNameRange     '0.4.0',
+87 silly addNameRange     '0.4.1',
+87 silly addNameRange     '0.3.13-a',
+87 silly addNameRange     '0.4.0-a',
+87 silly addNameRange     '0.4.0-rc1',
+87 silly addNameRange     '0.4.0-rc2',
+87 silly addNameRange     '0.4.0-rc3',
+87 silly addNameRange     '0.4.0-rc4',
+87 silly addNameRange     '0.4.0-rc5',
+87 silly addNameRange     '0.4.0-rc6',
+87 silly addNameRange     '0.4.0-rc7',
+87 silly addNameRange     '0.4.0-rc8' ] ]
+88 verbose addNamed [ 'grunt', '0.4.1' ]
+89 verbose addNamed [ '0.4.1', '0.4.1' ]
+90 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+91 verbose lock grunt@0.4.1 /home/leah/.npm/f9e87dfe-grunt-0-4-1.lock
+92 silly addNameRange number 2 { name: 'grunt-contrib-qunit',
+92 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'grunt-contrib-qunit',
+93 silly addNameRange   [ '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '0.1.1-rc5',
+93 silly addNameRange     '0.1.1-rc6' ] ]
+94 verbose addNamed [ 'grunt-contrib-qunit', '0.3.0' ]
+95 verbose addNamed [ '0.3.0', '0.3.0' ]
+96 silly lockFile 614dd01a-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@0.3.0
+97 verbose lock grunt-contrib-qunit@0.3.0 /home/leah/.npm/614dd01a-grunt-contrib-qunit-0-3-0.lock
+98 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+99 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+100 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+101 silly lockFile 6aebe2f8-grunt-0-4-x grunt@0.4.x
+102 silly lockFile 614dd01a-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@0.3.0
+103 silly lockFile 614dd01a-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@0.3.0
+104 silly lockFile fa37abc3-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@~0.3.0
+105 silly lockFile fa37abc3-grunt-contrib-qunit-0-3-0 grunt-contrib-qunit@~0.3.0
+106 silly registry.get cb [ 304, undefined ]
+107 verbose etag grunt-contrib-connect from cache
+108 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+108 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+108 silly addNameRange   hasData: true }
+109 silly addNameRange versions [ 'grunt-contrib-connect',
+109 silly addNameRange   [ '0.1.0',
+109 silly addNameRange     '0.1.1',
+109 silly addNameRange     '0.1.2',
+109 silly addNameRange     '0.2.0',
+109 silly addNameRange     '0.3.0',
+109 silly addNameRange     '0.4.0',
+109 silly addNameRange     '0.4.1',
+109 silly addNameRange     '0.4.2',
+109 silly addNameRange     '0.5.0',
+109 silly addNameRange     '0.1.1-rc6' ] ]
+110 verbose addNamed [ 'grunt-contrib-connect', '0.5.0' ]
+111 verbose addNamed [ '0.5.0', '0.5.0' ]
+112 silly lockFile 524c2b14-grunt-contrib-connect-0-5-0 grunt-contrib-connect@0.5.0
+113 verbose lock grunt-contrib-connect@0.5.0 /home/leah/.npm/524c2b14-grunt-contrib-connect-0-5-0.lock
+114 silly lockFile 524c2b14-grunt-contrib-connect-0-5-0 grunt-contrib-connect@0.5.0
+115 silly lockFile 524c2b14-grunt-contrib-connect-0-5-0 grunt-contrib-connect@0.5.0
+116 silly lockFile bc7bae3b-grunt-contrib-connect-0-5-0 grunt-contrib-connect@~0.5.0
+117 silly lockFile bc7bae3b-grunt-contrib-connect-0-5-0 grunt-contrib-connect@~0.5.0
+118 silly resolved [ { name: 'grunt',
+118 silly resolved     description: 'The JavaScript Task Runner',
+118 silly resolved     version: '0.4.1',
+118 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+118 silly resolved     homepage: 'http://gruntjs.com/',
+118 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+118 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+118 silly resolved     licenses: [ [Object] ],
+118 silly resolved     main: 'lib/grunt',
+118 silly resolved     scripts: { test: 'grunt test' },
+118 silly resolved     engines: { node: '>= 0.8.0' },
+118 silly resolved     keywords:
+118 silly resolved      [ 'task',
+118 silly resolved        'async',
+118 silly resolved        'cli',
+118 silly resolved        'minify',
+118 silly resolved        'uglify',
+118 silly resolved        'build',
+118 silly resolved        'lodash',
+118 silly resolved        'unit',
+118 silly resolved        'test',
+118 silly resolved        'qunit',
+118 silly resolved        'nodeunit',
+118 silly resolved        'server',
+118 silly resolved        'init',
+118 silly resolved        'scaffold',
+118 silly resolved        'make',
+118 silly resolved        'jake',
+118 silly resolved        'tool' ],
+118 silly resolved     dependencies:
+118 silly resolved      { async: '~0.1.22',
+118 silly resolved        'coffee-script': '~1.3.3',
+118 silly resolved        colors: '~0.6.0-1',
+118 silly resolved        dateformat: '1.0.2-1.2.3',
+118 silly resolved        eventemitter2: '~0.4.9',
+118 silly resolved        'findup-sync': '~0.1.0',
+118 silly resolved        glob: '~3.1.21',
+118 silly resolved        hooker: '~0.2.3',
+118 silly resolved        'iconv-lite': '~0.2.5',
+118 silly resolved        minimatch: '~0.2.6',
+118 silly resolved        nopt: '~1.0.10',
+118 silly resolved        rimraf: '~2.0.2',
+118 silly resolved        lodash: '~0.9.0',
+118 silly resolved        'underscore.string': '~2.2.0rc',
+118 silly resolved        which: '~1.0.5',
+118 silly resolved        'js-yaml': '~2.0.2' },
+118 silly resolved     devDependencies:
+118 silly resolved      { temporary: '~0.0.4',
+118 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+118 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+118 silly resolved        'grunt-contrib-watch': '~0.2.0',
+118 silly resolved        difflet: '~0.2.3' },
+118 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+118 silly resolved     readme: '# Grunt: The JavaScript Task Runner [![Build Status](https://secure.travis-ci.org/gruntjs/grunt.png?branch=master)](http://travis-ci.org/gruntjs/grunt)\n\n### Documentation\n\nVisit the [gruntjs.com](http://gruntjs.com/) website for all the things.\n\n### Support / Contributing\nBefore you make an issue, please read our [Contributing](http://gruntjs.com/contributing) guide.\n\nYou can find the grunt team in [#grunt on irc.freenode.net](irc://irc.freenode.net/#grunt).\n\n### Release History\nSee the [CHANGELOG](CHANGELOG).\n',
+118 silly resolved     readmeFilename: 'README.md',
+118 silly resolved     _id: 'grunt@0.4.1',
+118 silly resolved     _from: 'grunt@0.4.x' },
+118 silly resolved   { name: 'grunt-contrib-qunit',
+118 silly resolved     description: 'Run QUnit unit tests in a headless PhantomJS instance.',
+118 silly resolved     version: '0.3.0',
+118 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-qunit',
+118 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+118 silly resolved     repository:
+118 silly resolved      { type: 'git',
+118 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-qunit.git' },
+118 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-qunit/issues' },
+118 silly resolved     licenses: [ [Object] ],
+118 silly resolved     engines: { node: '>= 0.8.0' },
+118 silly resolved     scripts: { test: 'grunt test' },
+118 silly resolved     dependencies: { 'grunt-lib-phantomjs': '~0.4.0' },
+118 silly resolved     devDependencies:
+118 silly resolved      { 'grunt-contrib-jshint': '~0.6.0',
+118 silly resolved        'grunt-contrib-connect': '~0.3.0',
+118 silly resolved        'grunt-contrib-internal': '~0.4.5',
+118 silly resolved        grunt: '~0.4.1',
+118 silly resolved        difflet: '~0.2.3' },
+118 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+118 silly resolved     keywords: [ 'gruntplugin' ],
+118 silly resolved     contributors: [ [Object], [Object] ],
+118 silly resolved     readme: '# grunt-contrib-qunit v0.3.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-qunit.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-qunit)\n\n> Run QUnit unit tests in a headless PhantomJS instance.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-qunit --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-qunit\');\n```\n\n\n\n\n## Qunit task\n_Run this task with the `grunt qunit` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nWhen installed by npm, this plugin will automatically download and install [PhantomJS][] locally via the [grunt-lib-phantomjs][] library.\n\n[PhantomJS]: http://www.phantomjs.org/\n[grunt-lib-phantomjs]: https://github.com/gruntjs/grunt-lib-phantomjs\n\nAlso note that running grunt with the `--debug` flag will output a lot of PhantomJS-specific debugging information. This can be very helpful in seeing what actual URIs are being requested and received by PhantomJS.\n\n#### OS Dependencies\nThis plugin uses PhantomJS to run tests. PhantomJS requires these dependencies\n\n**On Ubuntu/Debian**\n\n`apt-get install libfontconfig1 fontconfig libfontconfig1-dev libfreetype6-dev`\n\n### Options\n\n#### timeout\nType: `Number`  \nDefault: `5000`\n\nThe amount of time (in milliseconds) that grunt will wait for a QUnit `start()` call before failing the task with an error.\n\n#### inject\nType: `String`  \nDefault: (built-in)\n\nPath to an alternate QUnit-PhantomJS bridge file to be injected. See [the built-in bridge](https://github.com/gruntjs/grunt-contrib-qunit/blob/master/phantomjs/bridge.js) for more information.\n\n#### urls\nType: `Array`  \nDefault: `[]`\n\nAbsolute `http://` or `https://` urls to be passed to PhantomJS. Specified URLs will be merged with any specified `src` files first. Note that urls must be served by a web server, and since this task doesn\'t contain a web server, one will need to be configured separately. The [grunt-contrib-connect plugin](https://github.com/gruntjs/grunt-contrib-connect) provides a basic web server.\n\n#### force\nType: `boolean`  \nDefault: `false`\n\nWhen true, the whole task will not fail when there are individual test failures, or when no assertions for a test have run. This can be set to true when you always want other tasks in the queue to be executed.\n\n#### (-- PhantomJS arguments)\nType: `String`  \nDefault: (none)\n\nAdditional `--` style arguments that need to be passed in to PhantomJS may be specified as options, like `{\'--option\': \'value\'}`. This may be useful for specifying a cookies file, local storage file, or a proxy. See the [PhantomJS API Reference][] for a list of `--` options that PhantomJS supports.\n\n### Usage examples\n\n#### Wildcards\nIn this example, `grunt qunit:all` will test all `.html` files in the test directory _and all subdirectories_. First, the wildcard is expanded to match each individual file. Then, each matched filename is passed to [PhantomJS][] (one at a time).\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  qunit: {\n    all: [\'test/**/*.html\']\n  }\n});\n```\n\n#### Testing via http:// or https://\nIn circumstances where running unit tests from local files is inadequate, you can specify `http://` or `https://` URLs via the `urls` option. Each URL is passed to [PhantomJS][] (one at a time).\n\nIn this example, `grunt qunit` will test two files, served from the server running at `localhost:8000`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  qunit: {\n    all: {\n      options: {\n        urls: [\n          \'http://localhost:8000/test/foo.html\',\n          \'http://localhost:8000/test/bar.html\'\n        ]\n      }\n    }\n  }\n});\n```\n\nWildcards and URLs may be combined by specifying both.\n\n#### Using the grunt-contrib-connect plugin\nIt\'s important to note that grunt does not automatically start a `localhost` web server. That being said, the [grunt-contrib-connect plugin][] `connect` task can be run before the `qunit` task to serve files via a simple [connect][] web server.\n\n[grunt-contrib-connect plugin]: https://github.com/gruntjs/grunt-contrib-connect\n[connect]: http://www.senchalabs.org/connect/\n\nIn the following example, if a web server isn\'t running at `localhost:8000`, running `grunt qunit` with the following configuration will fail because the `qunit` task won\'t be able to load the specified URLs. However, running `grunt connect qunit` will first start a static [connect][] web server at `localhost:8000` with its base path set to the Gruntfile\'s directory. Then, the `qunit` task will be run, requesting the specified URLs.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  qunit: {\n    all: {\n      options: {\n        urls: [\n          \'http://localhost:8000/test/foo.html\',\n          \'http://localhost:8000/test/bar.html\',\n        ]\n      }\n    }\n  },\n  connect: {\n    server: {\n      options: {\n        port: 8000,\n        base: \'.\'\n      }\n    }\n  }\n});\n\n// This plugin provides the "connect" task.\ngrunt.loadNpmTasks(\'grunt-contrib-connect\');\n\n// A convenient task alias.\ngrunt.registerTask(\'test\', [\'connect\', \'qunit\']);\n```\n\n#### Custom timeouts and PhantomJS options\nIn the following example, the default timeout value of `5000` is overridden with the value `10000` (timeout values are in milliseconds). Additionally, PhantomJS will read stored cookies from the specified file. See the [PhantomJS API Reference][] for a list of `--` options that PhantomJS supports.\n\n[PhantomJS API Reference]: https://github.com/ariya/phantomjs/wiki/API-Reference\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  qunit: {\n    options: {\n      timeout: 10000,\n      \'--cookies-file\': \'misc/cookies.txt\'\n    },\n    all: [\'test/**/*.html\']\n  }\n});\n```\n\n#### Events and reporting\n[QUnit callback](http://api.qunitjs.com/category/callbacks/) methods and arguments are also emitted through grunt\'s event system so that you may build custom reporting tools. Please refer to to the QUnit documentation for more information.\n\nThe events, with arguments, are as follows:\n\n* `qunit.begin`\n* `qunit.moduleStart` `(name)`\n* `qunit.testStart` `(name)`\n* `qunit.log` `(result, actual, expected, message, source)`\n* `qunit.testDone` `(name, failed, passed, total)`\n* `qunit.moduleDone` `(name, failed, passed, total)`\n* `qunit.done` `(failed, passed, total, runtime)`\n\nIn addition to QUnit callback-named events, the following events are emitted by Grunt:\n\n* `qunit.spawn` `(url)`: when [PhantomJS][] is spawned for a test\n* `qunit.fail.load` `(url)`: when [PhantomJS][] could not open the given url\n* `qunit.fail.timeout`: when a QUnit test times out, usually due to a missing `QUnit.start()` call\n* `qunit.error.onError` `(message, stackTrace)`\n\nYou may listen for these events like so:\n\n```js\ngrunt.event.on(\'qunit.spawn\', function (url) {\n  grunt.log.ok("Running test: " + url);\n});\n```\n\n\n## Release History\n\n * 2013-09-29   v0.3.0   Update grunt-lib-phantomjs to v0.4.0. Add qunit.fail.load and qunit.fail.timeout events. Update QUnit to v1.12.0. Add force option. Propagate onError events from phantomjs through the qunit.error.onError event. Remove confusing error message.\n * 2013-06-06   v0.2.2   Warn if no assertions ran in a single test. Spaces instead of newlines for clickable urls. Wrap bridge.js in a IIFE.\n * 2013-04-05   v0.2.1   Update to use PhantomJS 1.9.0. Fixes PhantomJS not found errors.\n * 2013-02-28   v0.2.0   Update to use PhantomJS 1.8.1.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api. Adding "urls" option for specifying absolute test URLs.\n * 2012-10-05   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Sun Sep 29 2013 11:09:57.*\n',
+118 silly resolved     readmeFilename: 'README.md',
+118 silly resolved     _id: 'grunt-contrib-qunit@0.3.0',
+118 silly resolved     _from: 'grunt-contrib-qunit@~0.3.0' },
+118 silly resolved   { name: 'grunt-contrib-connect',
+118 silly resolved     description: 'Start a connect web server.',
+118 silly resolved     version: '0.5.0',
+118 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-connect',
+118 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+118 silly resolved     repository:
+118 silly resolved      { type: 'git',
+118 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-connect.git' },
+118 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-connect/issues' },
+118 silly resolved     licenses: [ [Object] ],
+118 silly resolved     main: 'Gruntfile.js',
+118 silly resolved     engines: { node: '>= 0.8.0' },
+118 silly resolved     scripts: { test: 'grunt test' },
+118 silly resolved     dependencies:
+118 silly resolved      { connect: '~2.7.11',
+118 silly resolved        'connect-livereload': '~0.2.0',
+118 silly resolved        open: '0.0.4' },
+118 silly resolved     devDependencies:
+118 silly resolved      { 'grunt-contrib-jshint': '~0.6.4',
+118 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+118 silly resolved        'grunt-contrib-internal': '~0.4.6',
+118 silly resolved        grunt: '~0.4.0' },
+118 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+118 silly resolved     keywords: [ 'gruntplugin', 'server', 'connect', 'http' ],
+118 silly resolved     contributors: [ [Object], [Object], [Object] ],
+118 silly resolved     readme: '# grunt-contrib-connect v0.5.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-connect.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-connect)\n\n> Start a connect web server.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-connect --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-connect\');\n```\n\n\n\n\n## Connect task\n_Run this task with the `grunt connect` command._\n\nNote that this server only runs as long as grunt is running. Once grunt\'s tasks have completed, the web server stops. This behavior can be changed with the [keepalive](#keepalive) option, and can be enabled ad-hoc by running the task like `grunt connect:keepalive`.\n\nThis task was designed to be used in conjunction with another task that is run immediately afterwards, like the [grunt-contrib-qunit plugin](https://github.com/gruntjs/grunt-contrib-qunit) `qunit` task.\n### Options\n\n#### port\nType: `Integer`  \nDefault: `8000`\n\nThe port on which the webserver will respond. The task will fail if the specified port is already in use. You can use the special values `0` or `\'?\'` to use a system-assigned port.\n\n#### protocol\nType: `String`  \nDefault: `\'http\'`\n\nMay be `\'http\'` or `\'https\'`.\n\n#### hostname\nType: `String`  \nDefault: `\'localhost\'`\n\nThe hostname the webserver will use.\n\nSetting it to `\'*\'` will make the server accessible from anywhere.\n\n#### base\nType: `String` or `Array`  \nDefault: `\'.\'`\n\nThe base (or root) directory from which files will be served. Defaults to the project Gruntfile\'s directory.\n\nCan be an array of bases to serve multiple directories. The last base given will be the directory to become browse-able.\n\n#### directory\nType: `String`  \nDefault: `null`\n\nSet to the directory you wish to be browse-able. Used to override the `base` option browse-able directory.\n\n#### keepalive\nType: `Boolean`  \nDefault: `false`\n\nKeep the server alive indefinitely. Note that if this option is enabled, any tasks specified after this task will _never run_. By default, once grunt\'s tasks have completed, the web server stops. This option changes that behavior.\n\nThis option can also be enabled ad-hoc by running the task like `grunt connect:targetname:keepalive`\n\n#### debug\nType: `Boolean`  \nDefault: `false`\n\nSet the `debug` option to true to enable logging instead of using the `--debug` flag.\n\n#### livereload\nType: `Boolean` or `Number`  \nDefault: `false`\n\nSet to `true` or a port number to inject a live reload script tag into your page using [connect-livereload](https://github.com/intesso/connect-livereload).\n\n*This does not perform live reloading. It is intended to be used in tandem with grunt-contrib-watch or another task that will trigger a live reload server upon files changing.*\n\n#### open\nType: `Boolean` or `String`\nDefault: `false`\n\nOpen the served page in your default browser. Specifying `true` opens the default server URL, while specifying a URL opens that URL.\n\n#### middleware\nType: `Function`  \nDefault:\n\n```js\nfunction(connect, options) {\n  var middlewares = [];\n  var directory = options.directory || options.base[options.base.length - 1];\n  if (!Array.isArray(options.base)) {\n    options.base = [options.base];\n  }\n  options.base.forEach(function(base) {\n    // Serve static files.\n    middlewares.push(connect.static(base));\n  });\n  // Make directory browse-able.\n  middlewares.push(connect.directory(directory));\n  return middlewares;\n}\n```\n\nLets you add in your own Connect middlewares. This option expects a function that returns an array of middlewares. See the [project Gruntfile][] and [project unit tests][] for a usage example.\n\n[project Gruntfile]: Gruntfile.js\n[project unit tests]: test/connect_test.js\n\n### Usage examples\n\n#### Basic Use\nIn this example, `grunt connect` (or more verbosely, `grunt connect:server`) will start a static web server at `http://localhost:9001/`, with its base path set to the `www-root` directory relative to the gruntfile, and any tasks run afterwards will be able to access it.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        port: 9001,\n        base: \'www-root\'\n      }\n    }\n  }\n});\n```\n\nIf you want your web server to use the default options, just omit the `options` object. You still need to specify a target (`uses_defaults` in this example), but the target\'s configuration object can otherwise be empty or nonexistent. In this example, `grunt connect` (or more verbosely, `grunt connect:uses_defaults`) will start a static web server using the default options.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    uses_defaults: {}\n  }\n});\n```\n\n#### Multiple Servers\nYou can specify multiple servers to be run alone or simultaneously by creating a target for each server. In this example, running either `grunt connect:site1` or `grunt connect:site2` will  start the appropriate web server, but running `grunt connect` will run _both_. Note that any server for which the [keepalive](#keepalive) option is specified will prevent _any_ task or target from running after it.\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    site1: {\n      options: {\n        port: 9000,\n        base: \'www-roots/site1\'\n      }\n    },\n    site2: {\n      options: {\n        port: 9001,\n        base: \'www-roots/site2\'\n      }\n    }\n  }\n});\n```\n\n#### Roll Your Own\nLike the [Basic Use](#basic-use) example, this example will start a static web server at `http://localhost:9001/`, with its base path set to the `www-root` directory relative to the gruntfile. Unlike the other example, this is done by creating a brand new task. in fact, this plugin isn\'t even installed!\n\n```javascript\n// Project configuration.\ngrunt.initConfig({ /* Nothing needed here! */ });\n\n// After running "npm install connect --save-dev" to add connect as a dev\n// dependency of your project, you can require it in your gruntfile with:\nvar connect = require(\'connect\');\n\n// Now you can define a "connect" task that starts a webserver, using the\n// connect lib, with whatever options and configuration you need:\ngrunt.registerTask(\'connect\', \'Start a custom static web server.\', function() {\n  grunt.log.writeln(\'Starting static web server in "www-root" on port 9001.\');\n  connect(connect.static(\'www-root\')).listen(9001);\n});\n```\n\n#### Support for HTTPS\n\nA default certificate authority, certificate and key file are provided and pre-\nconfigured for use when `protocol` has been set to `https`.\n\nNOTE: The passphrase used on the files is `grunt`\n\n####### Advanced HTTPS config\n\nIf the default certificate setup is unsuitable for your environment, OpenSSL\ncan be used to create a set of self-signed certificates with a local ca root.\n\n```shell\n### Generate the CA key\n### Set a passphrase and remember what it is\nopenssl genrsa -des3 -out ca.key 2048\n### Generate a CA root\nopenssl req -new -x509 -days 3650 -key ca.key -out ca.crt\n\n### Generate the server key\nopenssl genrsa -out server.key 1024\n### Generate the request to the self-signed CA root\nopenssl req -new -key server.key -out server.csr\n### Generate the server certificate\nopenssl x509 -req -in server.csr -out server.crt -CA ca.crt -CAkey ca.key -CAcreateserial -days 3650\n```\n\nFor more details on the various options that can be set when configuring SSL,\nplease see the Node documentation for [TLS][].\n\nGrunt configuration would become\n\n```javascript\n// Project configuration.\ngrunt.initConfig({\n  connect: {\n    server: {\n      options: {\n        protocol: \'https\',\n        port: 8443,\n        key: grunt.file.read(\'server.key\').toString(),\n        cert: grunt.file.read(\'server.crt\').toString(),\n        ca: grunt.file.read(\'ca.crt\').toString(),\n        passphrase: \'grunt\',\n      },\n    },\n  },\n});\n```\n\n[TLS]: http://nodejs.org/api/tls.html#tls_tls_createserver_options_secureconnectionlistener\n\n#### Grunt Events\nThe connect plugin will emit a grunt event, `connect.{taskName}.listening`, once the server has started. You can listen for this event to run things against a keepalive server, for example:\n\n```javascript\ngrunt.registerTask(\'jasmine-server\', \'start web server for jasmine tests in browser\', function() {\n  grunt.task.run(\'jasmine:tests:build\');\n\n  grunt.event.once(\'connect.tests.listening\', function(host, port) {\n    var specRunnerUrl = \'http://\' + host + \':\' + port + \'/_SpecRunner.html\';\n    grunt.log.writeln(\'Jasmine specs available at: \' + specRunnerUrl);\n    require(\'open\')(specRunnerUrl);\n  });\n\n  grunt.task.run(\'connect:tests:keepalive\');\n});\n```\n\n\n## Release History\n\n * 2013-09-05   v0.5.0   Add \'open\' option.\n * 2013-09-05   v0.4.2   Un-normalize options.base as it should be a string or an array as the user has set. Fix setting target hostname option.\n * 2013-09-02   v0.4.1   Browse-able directory is the last item supplied to bases. Added directory option to override browse-able directory.\n * 2013-09-01   v0.4.0   Fix logging of which server address. Ability to set multiple bases. Event emitted when server starts listening. Support for HTTPS. debug option added to display debug logging like the --debug flag. livereload option added to inject a livereload snippet into the page.\n * 2013-04-10   v0.3.0   Add ability to listen on system-assigned port.\n * 2013-03-07   v0.2.0   Upgrade connect dependency.\n * 2013-02-17   v0.1.2   Ensure Gruntfile.js is included on npm.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5.\n * 2012-11-01   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com)\n\n*This file was generated on Thu Sep 05 2013 14:09:10.*\n',
+118 silly resolved     readmeFilename: 'README.md',
+118 silly resolved     _id: 'grunt-contrib-connect@0.5.0',
+118 silly resolved     _from: 'grunt-contrib-connect@~0.5.0' } ]
+119 info install grunt@0.4.1 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working
+120 info install grunt-contrib-qunit@0.3.0 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working
+121 info install grunt-contrib-connect@0.5.0 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working
+122 info installOne grunt@0.4.1
+123 info installOne grunt-contrib-qunit@0.3.0
+124 info installOne grunt-contrib-connect@0.5.0
+125 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt unbuild
+126 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit unbuild
+127 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect unbuild
+128 verbose tar unpack /home/leah/.npm/grunt/0.4.1/package.tgz
+129 silly lockFile 631408d3-Grunt-Working-node-modules-grunt tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt
+130 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt /home/leah/.npm/631408d3-Grunt-Working-node-modules-grunt.lock
+131 silly lockFile 634cb939-leah-npm-grunt-0-4-1-package-tgz tar:///home/leah/.npm/grunt/0.4.1/package.tgz
+132 verbose lock tar:///home/leah/.npm/grunt/0.4.1/package.tgz /home/leah/.npm/634cb939-leah-npm-grunt-0-4-1-package-tgz.lock
+133 verbose tar unpack /home/leah/.npm/grunt-contrib-qunit/0.3.0/package.tgz
+134 silly lockFile b9575b9f-node-modules-grunt-contrib-qunit tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit
+135 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit /home/leah/.npm/b9575b9f-node-modules-grunt-contrib-qunit.lock
+136 silly lockFile c8919339--contrib-qunit-0-3-0-package-tgz tar:///home/leah/.npm/grunt-contrib-qunit/0.3.0/package.tgz
+137 verbose lock tar:///home/leah/.npm/grunt-contrib-qunit/0.3.0/package.tgz /home/leah/.npm/c8919339--contrib-qunit-0-3-0-package-tgz.lock
+138 verbose tar unpack /home/leah/.npm/grunt-contrib-connect/0.5.0/package.tgz
+139 silly lockFile c9385e4e-de-modules-grunt-contrib-connect tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+140 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect /home/leah/.npm/c9385e4e-de-modules-grunt-contrib-connect.lock
+141 silly lockFile cbc8b6b2-ontrib-connect-0-5-0-package-tgz tar:///home/leah/.npm/grunt-contrib-connect/0.5.0/package.tgz
+142 verbose lock tar:///home/leah/.npm/grunt-contrib-connect/0.5.0/package.tgz /home/leah/.npm/cbc8b6b2-ontrib-connect-0-5-0-package-tgz.lock
+143 silly gunzTarPerm modes [ '755', '644' ]
+144 silly gunzTarPerm modes [ '755', '644' ]
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm extractEntry package.json
+148 silly gunzTarPerm extractEntry package.json
+149 silly gunzTarPerm extractEntry .npmignore
+150 silly gunzTarPerm extractEntry README.md
+151 silly gunzTarPerm extractEntry .npmignore
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm extractEntry README.md
+154 silly gunzTarPerm extractEntry Gruntfile.js
+155 silly gunzTarPerm extractEntry Gruntfile.js
+156 silly gunzTarPerm extractEntry custom-gruntfile.js
+157 silly gunzTarPerm extractEntry Gruntfile.js
+158 silly gunzTarPerm extractEntry LICENSE-MIT
+159 silly gunzTarPerm extractEntry .travis.yml
+160 silly gunzTarPerm extractEntry test/fixtures/a.js
+161 silly gunzTarPerm extractEntry test/fixtures/b.js
+162 silly gunzTarPerm extractEntry CONTRIBUTING.md
+163 silly gunzTarPerm extractEntry test/fixtures/banner.js
+164 silly gunzTarPerm extractEntry test/fixtures/banner2.js
+165 silly gunzTarPerm extractEntry test/fixtures/banner3.js
+166 silly gunzTarPerm extractEntry test/fixtures/Gruntfile-print-text.js
+167 silly gunzTarPerm extractEntry AUTHORS
+168 silly gunzTarPerm extractEntry CHANGELOG
+169 silly gunzTarPerm extractEntry .jshintrc
+170 silly gunzTarPerm extractEntry .travis.yml
+171 silly gunzTarPerm extractEntry test/fixtures/spawn-multibyte.js
+172 silly gunzTarPerm extractEntry test/fixtures/spawn.js
+173 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.json
+174 silly gunzTarPerm extractEntry test/fixtures/expand/README.md
+175 silly gunzTarPerm extractEntry test/fixtures/expand/css/baz.css
+176 silly gunzTarPerm extractEntry test/fixtures/expand/css/qux.css
+177 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deep.txt
+178 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deeper/deeper.txt
+179 silly gunzTarPerm extractEntry test/fixtures/expand/deep/deeper/deepest/deepest.txt
+180 silly gunzTarPerm extractEntry test/fixtures/expand/js/bar.js
+181 silly gunzTarPerm extractEntry test/fixtures/expand/js/foo.js
+182 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/dir.ectory/file-no-extension
+183 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/dir.ectory/sub.dir.ectory/file.ext.ension
+184 silly gunzTarPerm extractEntry test/fixtures/expand-mapping-ext/file.ext.ension
+185 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-123-a.js
+186 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-123-b.js
+187 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-a.js
+188 silly gunzTarPerm extractEntry test/fixtures/files/dist/built-b.js
+189 silly gunzTarPerm extractEntry test/fixtures/files/dist/built.js
+190 silly gunzTarPerm extractEntry test/fixtures/files/src/file1-123.js
+191 silly gunzTarPerm extractEntry test/fixtures/files/src/file1.js
+192 silly gunzTarPerm extractEntry test/fixtures/files/src/file2-123.js
+193 silly gunzTarPerm extractEntry test/fixtures/files/src/file2.js
+194 silly gunzTarPerm extractEntry test/fixtures/BOM.txt
+195 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.txt
+196 silly gunzTarPerm extractEntry test/fixtures/iso-8859-1.yaml
+197 silly gunzTarPerm extractEntry test/fixtures/lint.txt
+198 silly gunzTarPerm extractEntry test/fixtures/no_BOM.txt
+199 silly gunzTarPerm extractEntry test/fixtures/octocat.png
+200 silly gunzTarPerm extractEntry test/fixtures/exec.cmd
+201 silly gunzTarPerm extractEntry test/fixtures/exec.sh
+202 silly gunzTarPerm extractEntry test/fixtures/template.txt
+203 silly gunzTarPerm extractEntry test/fixtures/test.json
+204 silly gunzTarPerm extractEntry test/fixtures/utf8.json
+205 silly gunzTarPerm extractEntry test/fixtures/utf8.txt
+206 silly gunzTarPerm extractEntry test/fixtures/utf8.yaml
+207 silly gunzTarPerm extractEntry test/grunt/config_test.js
+208 silly gunzTarPerm extractEntry test/grunt/event_test.js
+209 silly gunzTarPerm extractEntry test/grunt/file_test.js
+210 silly gunzTarPerm extractEntry test/grunt/log_test.js
+211 silly gunzTarPerm extractEntry test/grunt/option_test.js
+212 silly gunzTarPerm extractEntry test/grunt/task_test.js
+213 silly gunzTarPerm extractEntry test/grunt/template_test.js
+214 silly gunzTarPerm extractEntry test/grunt/util_test.js
+215 silly gunzTarPerm extractEntry test/gruntfile/multi-task-files.js
+216 silly gunzTarPerm extractEntry test/util/namespace_test.js
+217 silly gunzTarPerm extractEntry test/util/task_test.js
+218 silly gunzTarPerm extractEntry .travis.yml
+219 silly gunzTarPerm extractEntry AUTHORS
+220 silly gunzTarPerm extractEntry CHANGELOG
+221 silly gunzTarPerm extractEntry docs/README.md
+222 silly gunzTarPerm extractEntry lib/grunt.js
+223 silly gunzTarPerm extractEntry lib/grunt/cli.js
+224 silly gunzTarPerm extractEntry lib/grunt/event.js
+225 silly gunzTarPerm extractEntry lib/grunt/fail.js
+226 silly gunzTarPerm extractEntry lib/grunt/file.js
+227 silly gunzTarPerm extractEntry lib/grunt/config.js
+228 silly gunzTarPerm extractEntry lib/grunt/log.js
+229 silly gunzTarPerm extractEntry lib/grunt/option.js
+230 silly gunzTarPerm extractEntry lib/grunt/task.js
+231 silly gunzTarPerm extractEntry lib/grunt/template.js
+232 silly gunzTarPerm extractEntry lib/grunt/util.js
+233 silly gunzTarPerm extractEntry lib/grunt/help.js
+234 silly gunzTarPerm extractEntry lib/util/exit.js
+235 silly gunzTarPerm extractEntry lib/util/namespace.js
+236 silly gunzTarPerm extractEntry lib/util/task.js
+237 silly gunzTarPerm extractEntry CONTRIBUTING.md
+238 silly gunzTarPerm extractEntry LICENSE-MIT
+239 silly gunzTarPerm extractEntry CONTRIBUTING.md
+240 silly gunzTarPerm extractEntry LICENSE-MIT
+241 silly gunzTarPerm extractEntry AUTHORS
+242 silly gunzTarPerm extractEntry docs/qunit-examples.md
+243 silly gunzTarPerm extractEntry tasks/connect.js
+244 silly gunzTarPerm extractEntry tasks/certs/ca.crt
+245 silly gunzTarPerm extractEntry docs/qunit-options.md
+246 silly gunzTarPerm extractEntry docs/qunit-overview.md
+247 silly gunzTarPerm extractEntry tasks/certs/ca.key
+248 silly gunzTarPerm extractEntry tasks/certs/ca.srl
+249 silly gunzTarPerm extractEntry CHANGELOG
+250 silly gunzTarPerm extractEntry phantomjs/bridge.js
+251 silly gunzTarPerm extractEntry tasks/certs/server.crt
+252 silly gunzTarPerm extractEntry tasks/certs/server.csr
+253 silly gunzTarPerm extractEntry tasks/qunit.js
+254 silly gunzTarPerm extractEntry test/qunit_test.js
+255 silly gunzTarPerm extractEntry tasks/certs/server.key
+256 silly gunzTarPerm extractEntry test/qunit_test_error.js
+257 silly gunzTarPerm extractEntry test/libs/qunit.js
+258 silly gunzTarPerm extractEntry test/libs/qunit.css
+259 silly gunzTarPerm extractEntry test/qunit1.html
+260 silly gunzTarPerm extractEntry test/qunit2.html
+261 silly lockFile c9385e4e-de-modules-grunt-contrib-connect tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+262 silly lockFile c9385e4e-de-modules-grunt-contrib-connect tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+263 silly lockFile cbc8b6b2-ontrib-connect-0-5-0-package-tgz tar:///home/leah/.npm/grunt-contrib-connect/0.5.0/package.tgz
+264 silly lockFile cbc8b6b2-ontrib-connect-0-5-0-package-tgz tar:///home/leah/.npm/grunt-contrib-connect/0.5.0/package.tgz
+265 info preinstall grunt-contrib-connect@0.5.0
+266 verbose readDependencies using package.json deps
+267 verbose readDependencies using package.json deps
+268 verbose cache add [ 'connect@~2.7.11', null ]
+269 verbose cache add name=undefined spec="connect@~2.7.11" args=["connect@~2.7.11",null]
+270 verbose parsed url { protocol: null,
+270 verbose parsed url   slashes: null,
+270 verbose parsed url   auth: null,
+270 verbose parsed url   host: null,
+270 verbose parsed url   port: null,
+270 verbose parsed url   hostname: null,
+270 verbose parsed url   hash: null,
+270 verbose parsed url   search: null,
+270 verbose parsed url   query: null,
+270 verbose parsed url   pathname: 'connect@~2.7.11',
+270 verbose parsed url   path: 'connect@~2.7.11',
+270 verbose parsed url   href: 'connect@~2.7.11' }
+271 verbose cache add name="connect" spec="~2.7.11" args=["connect","~2.7.11"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: '~2.7.11',
+272 verbose parsed url   path: '~2.7.11',
+272 verbose parsed url   href: '~2.7.11' }
+273 verbose addNamed [ 'connect', '~2.7.11' ]
+274 verbose addNamed [ null, '>=2.7.11-0 <2.8.0-0' ]
+275 silly lockFile 1729cbdb-connect-2-7-11 connect@~2.7.11
+276 verbose lock connect@~2.7.11 /home/leah/.npm/1729cbdb-connect-2-7-11.lock
+277 verbose cache add [ 'connect-livereload@~0.2.0', null ]
+278 verbose cache add name=undefined spec="connect-livereload@~0.2.0" args=["connect-livereload@~0.2.0",null]
+279 verbose parsed url { protocol: null,
+279 verbose parsed url   slashes: null,
+279 verbose parsed url   auth: null,
+279 verbose parsed url   host: null,
+279 verbose parsed url   port: null,
+279 verbose parsed url   hostname: null,
+279 verbose parsed url   hash: null,
+279 verbose parsed url   search: null,
+279 verbose parsed url   query: null,
+279 verbose parsed url   pathname: 'connect-livereload@~0.2.0',
+279 verbose parsed url   path: 'connect-livereload@~0.2.0',
+279 verbose parsed url   href: 'connect-livereload@~0.2.0' }
+280 verbose cache add name="connect-livereload" spec="~0.2.0" args=["connect-livereload","~0.2.0"]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: '~0.2.0',
+281 verbose parsed url   path: '~0.2.0',
+281 verbose parsed url   href: '~0.2.0' }
+282 verbose addNamed [ 'connect-livereload', '~0.2.0' ]
+283 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+284 silly lockFile 78f564f0-connect-livereload-0-2-0 connect-livereload@~0.2.0
+285 verbose lock connect-livereload@~0.2.0 /home/leah/.npm/78f564f0-connect-livereload-0-2-0.lock
+286 verbose cache add [ 'open@0.0.4', null ]
+287 verbose cache add name=undefined spec="open@0.0.4" args=["open@0.0.4",null]
+288 verbose parsed url { protocol: null,
+288 verbose parsed url   slashes: null,
+288 verbose parsed url   auth: null,
+288 verbose parsed url   host: null,
+288 verbose parsed url   port: null,
+288 verbose parsed url   hostname: null,
+288 verbose parsed url   hash: null,
+288 verbose parsed url   search: null,
+288 verbose parsed url   query: null,
+288 verbose parsed url   pathname: 'open@0.0.4',
+288 verbose parsed url   path: 'open@0.0.4',
+288 verbose parsed url   href: 'open@0.0.4' }
+289 verbose cache add name="open" spec="0.0.4" args=["open","0.0.4"]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: '0.0.4',
+290 verbose parsed url   path: '0.0.4',
+290 verbose parsed url   href: '0.0.4' }
+291 verbose addNamed [ 'open', '0.0.4' ]
+292 verbose addNamed [ '0.0.4', '0.0.4' ]
+293 silly lockFile 03f97a6d-open-0-0-4 open@0.0.4
+294 verbose lock open@0.0.4 /home/leah/.npm/03f97a6d-open-0-0-4.lock
+295 silly addNameRange { name: 'connect', range: '>=2.7.11-0 <2.8.0-0', hasData: false }
+296 silly addNameRange { name: 'connect-livereload',
+296 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+296 silly addNameRange   hasData: false }
+297 verbose url raw connect
+298 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+299 verbose url resolved https://registry.npmjs.org/connect
+300 info trying registry request attempt 1 at 12:45:55
+301 verbose etag "CJI82ZWGCYWVRM5U9S0JHMFY3"
+302 http GET https://registry.npmjs.org/connect
+303 verbose url raw connect-livereload
+304 verbose url resolving [ 'https://registry.npmjs.org/', './connect-livereload' ]
+305 verbose url resolved https://registry.npmjs.org/connect-livereload
+306 info trying registry request attempt 1 at 12:45:55
+307 verbose etag "9BWRMZUCI79GJU28K7P2A47GL"
+308 http GET https://registry.npmjs.org/connect-livereload
+309 verbose url raw open/0.0.4
+310 verbose url resolving [ 'https://registry.npmjs.org/', './open/0.0.4' ]
+311 verbose url resolved https://registry.npmjs.org/open/0.0.4
+312 info trying registry request attempt 1 at 12:45:55
+313 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+314 http GET https://registry.npmjs.org/open/0.0.4
+315 silly lockFile b9575b9f-node-modules-grunt-contrib-qunit tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit
+316 silly lockFile b9575b9f-node-modules-grunt-contrib-qunit tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit
+317 silly lockFile c8919339--contrib-qunit-0-3-0-package-tgz tar:///home/leah/.npm/grunt-contrib-qunit/0.3.0/package.tgz
+318 silly lockFile c8919339--contrib-qunit-0-3-0-package-tgz tar:///home/leah/.npm/grunt-contrib-qunit/0.3.0/package.tgz
+319 info preinstall grunt-contrib-qunit@0.3.0
+320 verbose readDependencies using package.json deps
+321 verbose readDependencies using package.json deps
+322 verbose cache add [ 'grunt-lib-phantomjs@~0.4.0', null ]
+323 verbose cache add name=undefined spec="grunt-lib-phantomjs@~0.4.0" args=["grunt-lib-phantomjs@~0.4.0",null]
+324 verbose parsed url { protocol: null,
+324 verbose parsed url   slashes: null,
+324 verbose parsed url   auth: null,
+324 verbose parsed url   host: null,
+324 verbose parsed url   port: null,
+324 verbose parsed url   hostname: null,
+324 verbose parsed url   hash: null,
+324 verbose parsed url   search: null,
+324 verbose parsed url   query: null,
+324 verbose parsed url   pathname: 'grunt-lib-phantomjs@~0.4.0',
+324 verbose parsed url   path: 'grunt-lib-phantomjs@~0.4.0',
+324 verbose parsed url   href: 'grunt-lib-phantomjs@~0.4.0' }
+325 verbose cache add name="grunt-lib-phantomjs" spec="~0.4.0" args=["grunt-lib-phantomjs","~0.4.0"]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: '~0.4.0',
+326 verbose parsed url   path: '~0.4.0',
+326 verbose parsed url   href: '~0.4.0' }
+327 verbose addNamed [ 'grunt-lib-phantomjs', '~0.4.0' ]
+328 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+329 silly lockFile e9e21454-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@~0.4.0
+330 verbose lock grunt-lib-phantomjs@~0.4.0 /home/leah/.npm/e9e21454-grunt-lib-phantomjs-0-4-0.lock
+331 silly addNameRange { name: 'grunt-lib-phantomjs',
+331 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+331 silly addNameRange   hasData: false }
+332 verbose url raw grunt-lib-phantomjs
+333 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-lib-phantomjs' ]
+334 verbose url resolved https://registry.npmjs.org/grunt-lib-phantomjs
+335 info trying registry request attempt 1 at 12:45:55
+336 verbose etag "95Z66LNXS1GMMESYJEVQQW0KY"
+337 http GET https://registry.npmjs.org/grunt-lib-phantomjs
+338 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+339 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+340 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+341 silly lockFile 631408d3-Grunt-Working-node-modules-grunt tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt
+342 silly lockFile 631408d3-Grunt-Working-node-modules-grunt tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt
+343 silly lockFile 634cb939-leah-npm-grunt-0-4-1-package-tgz tar:///home/leah/.npm/grunt/0.4.1/package.tgz
+344 silly lockFile 634cb939-leah-npm-grunt-0-4-1-package-tgz tar:///home/leah/.npm/grunt/0.4.1/package.tgz
+345 info preinstall grunt@0.4.1
+346 verbose readDependencies using package.json deps
+347 verbose readDependencies using package.json deps
+348 verbose cache add [ 'colors@~0.6.0-1', null ]
+349 verbose cache add name=undefined spec="colors@~0.6.0-1" args=["colors@~0.6.0-1",null]
+350 verbose parsed url { protocol: null,
+350 verbose parsed url   slashes: null,
+350 verbose parsed url   auth: null,
+350 verbose parsed url   host: null,
+350 verbose parsed url   port: null,
+350 verbose parsed url   hostname: null,
+350 verbose parsed url   hash: null,
+350 verbose parsed url   search: null,
+350 verbose parsed url   query: null,
+350 verbose parsed url   pathname: 'colors@~0.6.0-1',
+350 verbose parsed url   path: 'colors@~0.6.0-1',
+350 verbose parsed url   href: 'colors@~0.6.0-1' }
+351 verbose cache add name="colors" spec="~0.6.0-1" args=["colors","~0.6.0-1"]
+352 verbose parsed url { protocol: null,
+352 verbose parsed url   slashes: null,
+352 verbose parsed url   auth: null,
+352 verbose parsed url   host: null,
+352 verbose parsed url   port: null,
+352 verbose parsed url   hostname: null,
+352 verbose parsed url   hash: null,
+352 verbose parsed url   search: null,
+352 verbose parsed url   query: null,
+352 verbose parsed url   pathname: '~0.6.0-1',
+352 verbose parsed url   path: '~0.6.0-1',
+352 verbose parsed url   href: '~0.6.0-1' }
+353 verbose addNamed [ 'colors', '~0.6.0-1' ]
+354 verbose addNamed [ null, '>=0.6.0-1 <0.7.0-0' ]
+355 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+356 verbose lock colors@~0.6.0-1 /home/leah/.npm/f29bff6b-colors-0-6-0-1.lock
+357 verbose cache add [ 'dateformat@1.0.2-1.2.3', null ]
+358 verbose cache add name=undefined spec="dateformat@1.0.2-1.2.3" args=["dateformat@1.0.2-1.2.3",null]
+359 verbose parsed url { protocol: null,
+359 verbose parsed url   slashes: null,
+359 verbose parsed url   auth: null,
+359 verbose parsed url   host: null,
+359 verbose parsed url   port: null,
+359 verbose parsed url   hostname: null,
+359 verbose parsed url   hash: null,
+359 verbose parsed url   search: null,
+359 verbose parsed url   query: null,
+359 verbose parsed url   pathname: 'dateformat@1.0.2-1.2.3',
+359 verbose parsed url   path: 'dateformat@1.0.2-1.2.3',
+359 verbose parsed url   href: 'dateformat@1.0.2-1.2.3' }
+360 verbose cache add name="dateformat" spec="1.0.2-1.2.3" args=["dateformat","1.0.2-1.2.3"]
+361 verbose parsed url { protocol: null,
+361 verbose parsed url   slashes: null,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: null,
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: null,
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: '1.0.2-1.2.3',
+361 verbose parsed url   path: '1.0.2-1.2.3',
+361 verbose parsed url   href: '1.0.2-1.2.3' }
+362 verbose addNamed [ 'dateformat', '1.0.2-1.2.3' ]
+363 verbose addNamed [ '1.0.2-1.2.3', '1.0.2-1.2.3' ]
+364 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+365 verbose lock dateformat@1.0.2-1.2.3 /home/leah/.npm/644d6e27-dateformat-1-0-2-1-2-3.lock
+366 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+367 verbose cache add [ 'eventemitter2@~0.4.9', null ]
+368 verbose cache add name=undefined spec="eventemitter2@~0.4.9" args=["eventemitter2@~0.4.9",null]
+369 verbose parsed url { protocol: null,
+369 verbose parsed url   slashes: null,
+369 verbose parsed url   auth: null,
+369 verbose parsed url   host: null,
+369 verbose parsed url   port: null,
+369 verbose parsed url   hostname: null,
+369 verbose parsed url   hash: null,
+369 verbose parsed url   search: null,
+369 verbose parsed url   query: null,
+369 verbose parsed url   pathname: 'eventemitter2@~0.4.9',
+369 verbose parsed url   path: 'eventemitter2@~0.4.9',
+369 verbose parsed url   href: 'eventemitter2@~0.4.9' }
+370 verbose cache add name="eventemitter2" spec="~0.4.9" args=["eventemitter2","~0.4.9"]
+371 verbose parsed url { protocol: null,
+371 verbose parsed url   slashes: null,
+371 verbose parsed url   auth: null,
+371 verbose parsed url   host: null,
+371 verbose parsed url   port: null,
+371 verbose parsed url   hostname: null,
+371 verbose parsed url   hash: null,
+371 verbose parsed url   search: null,
+371 verbose parsed url   query: null,
+371 verbose parsed url   pathname: '~0.4.9',
+371 verbose parsed url   path: '~0.4.9',
+371 verbose parsed url   href: '~0.4.9' }
+372 verbose addNamed [ 'eventemitter2', '~0.4.9' ]
+373 verbose addNamed [ null, '>=0.4.9-0 <0.5.0-0' ]
+374 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+375 verbose lock eventemitter2@~0.4.9 /home/leah/.npm/70573e74-eventemitter2-0-4-9.lock
+376 verbose cache add [ 'findup-sync@~0.1.0', null ]
+377 verbose cache add name=undefined spec="findup-sync@~0.1.0" args=["findup-sync@~0.1.0",null]
+378 verbose parsed url { protocol: null,
+378 verbose parsed url   slashes: null,
+378 verbose parsed url   auth: null,
+378 verbose parsed url   host: null,
+378 verbose parsed url   port: null,
+378 verbose parsed url   hostname: null,
+378 verbose parsed url   hash: null,
+378 verbose parsed url   search: null,
+378 verbose parsed url   query: null,
+378 verbose parsed url   pathname: 'findup-sync@~0.1.0',
+378 verbose parsed url   path: 'findup-sync@~0.1.0',
+378 verbose parsed url   href: 'findup-sync@~0.1.0' }
+379 verbose cache add name="findup-sync" spec="~0.1.0" args=["findup-sync","~0.1.0"]
+380 verbose parsed url { protocol: null,
+380 verbose parsed url   slashes: null,
+380 verbose parsed url   auth: null,
+380 verbose parsed url   host: null,
+380 verbose parsed url   port: null,
+380 verbose parsed url   hostname: null,
+380 verbose parsed url   hash: null,
+380 verbose parsed url   search: null,
+380 verbose parsed url   query: null,
+380 verbose parsed url   pathname: '~0.1.0',
+380 verbose parsed url   path: '~0.1.0',
+380 verbose parsed url   href: '~0.1.0' }
+381 verbose addNamed [ 'findup-sync', '~0.1.0' ]
+382 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+383 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+384 verbose lock findup-sync@~0.1.0 /home/leah/.npm/625605b9-findup-sync-0-1-0.lock
+385 verbose cache add [ 'glob@~3.1.21', null ]
+386 verbose cache add name=undefined spec="glob@~3.1.21" args=["glob@~3.1.21",null]
+387 verbose parsed url { protocol: null,
+387 verbose parsed url   slashes: null,
+387 verbose parsed url   auth: null,
+387 verbose parsed url   host: null,
+387 verbose parsed url   port: null,
+387 verbose parsed url   hostname: null,
+387 verbose parsed url   hash: null,
+387 verbose parsed url   search: null,
+387 verbose parsed url   query: null,
+387 verbose parsed url   pathname: 'glob@~3.1.21',
+387 verbose parsed url   path: 'glob@~3.1.21',
+387 verbose parsed url   href: 'glob@~3.1.21' }
+388 verbose cache add name="glob" spec="~3.1.21" args=["glob","~3.1.21"]
+389 verbose parsed url { protocol: null,
+389 verbose parsed url   slashes: null,
+389 verbose parsed url   auth: null,
+389 verbose parsed url   host: null,
+389 verbose parsed url   port: null,
+389 verbose parsed url   hostname: null,
+389 verbose parsed url   hash: null,
+389 verbose parsed url   search: null,
+389 verbose parsed url   query: null,
+389 verbose parsed url   pathname: '~3.1.21',
+389 verbose parsed url   path: '~3.1.21',
+389 verbose parsed url   href: '~3.1.21' }
+390 verbose addNamed [ 'glob', '~3.1.21' ]
+391 verbose addNamed [ null, '>=3.1.21-0 <3.2.0-0' ]
+392 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+393 verbose lock glob@~3.1.21 /home/leah/.npm/b5074ddc-glob-3-1-21.lock
+394 verbose cache add [ 'hooker@~0.2.3', null ]
+395 verbose cache add name=undefined spec="hooker@~0.2.3" args=["hooker@~0.2.3",null]
+396 verbose parsed url { protocol: null,
+396 verbose parsed url   slashes: null,
+396 verbose parsed url   auth: null,
+396 verbose parsed url   host: null,
+396 verbose parsed url   port: null,
+396 verbose parsed url   hostname: null,
+396 verbose parsed url   hash: null,
+396 verbose parsed url   search: null,
+396 verbose parsed url   query: null,
+396 verbose parsed url   pathname: 'hooker@~0.2.3',
+396 verbose parsed url   path: 'hooker@~0.2.3',
+396 verbose parsed url   href: 'hooker@~0.2.3' }
+397 verbose cache add name="hooker" spec="~0.2.3" args=["hooker","~0.2.3"]
+398 verbose parsed url { protocol: null,
+398 verbose parsed url   slashes: null,
+398 verbose parsed url   auth: null,
+398 verbose parsed url   host: null,
+398 verbose parsed url   port: null,
+398 verbose parsed url   hostname: null,
+398 verbose parsed url   hash: null,
+398 verbose parsed url   search: null,
+398 verbose parsed url   query: null,
+398 verbose parsed url   pathname: '~0.2.3',
+398 verbose parsed url   path: '~0.2.3',
+398 verbose parsed url   href: '~0.2.3' }
+399 verbose addNamed [ 'hooker', '~0.2.3' ]
+400 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+401 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+402 verbose lock hooker@~0.2.3 /home/leah/.npm/2bcd1457-hooker-0-2-3.lock
+403 verbose cache add [ 'iconv-lite@~0.2.5', null ]
+404 verbose cache add name=undefined spec="iconv-lite@~0.2.5" args=["iconv-lite@~0.2.5",null]
+405 verbose parsed url { protocol: null,
+405 verbose parsed url   slashes: null,
+405 verbose parsed url   auth: null,
+405 verbose parsed url   host: null,
+405 verbose parsed url   port: null,
+405 verbose parsed url   hostname: null,
+405 verbose parsed url   hash: null,
+405 verbose parsed url   search: null,
+405 verbose parsed url   query: null,
+405 verbose parsed url   pathname: 'iconv-lite@~0.2.5',
+405 verbose parsed url   path: 'iconv-lite@~0.2.5',
+405 verbose parsed url   href: 'iconv-lite@~0.2.5' }
+406 verbose cache add name="iconv-lite" spec="~0.2.5" args=["iconv-lite","~0.2.5"]
+407 verbose parsed url { protocol: null,
+407 verbose parsed url   slashes: null,
+407 verbose parsed url   auth: null,
+407 verbose parsed url   host: null,
+407 verbose parsed url   port: null,
+407 verbose parsed url   hostname: null,
+407 verbose parsed url   hash: null,
+407 verbose parsed url   search: null,
+407 verbose parsed url   query: null,
+407 verbose parsed url   pathname: '~0.2.5',
+407 verbose parsed url   path: '~0.2.5',
+407 verbose parsed url   href: '~0.2.5' }
+408 verbose addNamed [ 'iconv-lite', '~0.2.5' ]
+409 verbose addNamed [ null, '>=0.2.5-0 <0.3.0-0' ]
+410 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+411 verbose lock iconv-lite@~0.2.5 /home/leah/.npm/ca9efaa1-iconv-lite-0-2-5.lock
+412 verbose cache add [ 'minimatch@~0.2.6', null ]
+413 verbose cache add name=undefined spec="minimatch@~0.2.6" args=["minimatch@~0.2.6",null]
+414 verbose parsed url { protocol: null,
+414 verbose parsed url   slashes: null,
+414 verbose parsed url   auth: null,
+414 verbose parsed url   host: null,
+414 verbose parsed url   port: null,
+414 verbose parsed url   hostname: null,
+414 verbose parsed url   hash: null,
+414 verbose parsed url   search: null,
+414 verbose parsed url   query: null,
+414 verbose parsed url   pathname: 'minimatch@~0.2.6',
+414 verbose parsed url   path: 'minimatch@~0.2.6',
+414 verbose parsed url   href: 'minimatch@~0.2.6' }
+415 verbose cache add name="minimatch" spec="~0.2.6" args=["minimatch","~0.2.6"]
+416 verbose parsed url { protocol: null,
+416 verbose parsed url   slashes: null,
+416 verbose parsed url   auth: null,
+416 verbose parsed url   host: null,
+416 verbose parsed url   port: null,
+416 verbose parsed url   hostname: null,
+416 verbose parsed url   hash: null,
+416 verbose parsed url   search: null,
+416 verbose parsed url   query: null,
+416 verbose parsed url   pathname: '~0.2.6',
+416 verbose parsed url   path: '~0.2.6',
+416 verbose parsed url   href: '~0.2.6' }
+417 verbose addNamed [ 'minimatch', '~0.2.6' ]
+418 verbose addNamed [ null, '>=0.2.6-0 <0.3.0-0' ]
+419 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+420 verbose lock minimatch@~0.2.6 /home/leah/.npm/5922ee11-minimatch-0-2-6.lock
+421 verbose cache add [ 'nopt@~1.0.10', null ]
+422 verbose cache add name=undefined spec="nopt@~1.0.10" args=["nopt@~1.0.10",null]
+423 verbose parsed url { protocol: null,
+423 verbose parsed url   slashes: null,
+423 verbose parsed url   auth: null,
+423 verbose parsed url   host: null,
+423 verbose parsed url   port: null,
+423 verbose parsed url   hostname: null,
+423 verbose parsed url   hash: null,
+423 verbose parsed url   search: null,
+423 verbose parsed url   query: null,
+423 verbose parsed url   pathname: 'nopt@~1.0.10',
+423 verbose parsed url   path: 'nopt@~1.0.10',
+423 verbose parsed url   href: 'nopt@~1.0.10' }
+424 verbose cache add name="nopt" spec="~1.0.10" args=["nopt","~1.0.10"]
+425 verbose parsed url { protocol: null,
+425 verbose parsed url   slashes: null,
+425 verbose parsed url   auth: null,
+425 verbose parsed url   host: null,
+425 verbose parsed url   port: null,
+425 verbose parsed url   hostname: null,
+425 verbose parsed url   hash: null,
+425 verbose parsed url   search: null,
+425 verbose parsed url   query: null,
+425 verbose parsed url   pathname: '~1.0.10',
+425 verbose parsed url   path: '~1.0.10',
+425 verbose parsed url   href: '~1.0.10' }
+426 verbose addNamed [ 'nopt', '~1.0.10' ]
+427 verbose addNamed [ null, '>=1.0.10-0 <1.1.0-0' ]
+428 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+429 verbose lock nopt@~1.0.10 /home/leah/.npm/79f78dba-nopt-1-0-10.lock
+430 verbose cache add [ 'rimraf@~2.0.2', null ]
+431 verbose cache add name=undefined spec="rimraf@~2.0.2" args=["rimraf@~2.0.2",null]
+432 verbose parsed url { protocol: null,
+432 verbose parsed url   slashes: null,
+432 verbose parsed url   auth: null,
+432 verbose parsed url   host: null,
+432 verbose parsed url   port: null,
+432 verbose parsed url   hostname: null,
+432 verbose parsed url   hash: null,
+432 verbose parsed url   search: null,
+432 verbose parsed url   query: null,
+432 verbose parsed url   pathname: 'rimraf@~2.0.2',
+432 verbose parsed url   path: 'rimraf@~2.0.2',
+432 verbose parsed url   href: 'rimraf@~2.0.2' }
+433 verbose cache add name="rimraf" spec="~2.0.2" args=["rimraf","~2.0.2"]
+434 verbose parsed url { protocol: null,
+434 verbose parsed url   slashes: null,
+434 verbose parsed url   auth: null,
+434 verbose parsed url   host: null,
+434 verbose parsed url   port: null,
+434 verbose parsed url   hostname: null,
+434 verbose parsed url   hash: null,
+434 verbose parsed url   search: null,
+434 verbose parsed url   query: null,
+434 verbose parsed url   pathname: '~2.0.2',
+434 verbose parsed url   path: '~2.0.2',
+434 verbose parsed url   href: '~2.0.2' }
+435 verbose addNamed [ 'rimraf', '~2.0.2' ]
+436 verbose addNamed [ null, '>=2.0.2-0 <2.1.0-0' ]
+437 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+438 verbose lock rimraf@~2.0.2 /home/leah/.npm/723423b4-rimraf-2-0-2.lock
+439 verbose cache add [ 'lodash@~0.9.0', null ]
+440 verbose cache add name=undefined spec="lodash@~0.9.0" args=["lodash@~0.9.0",null]
+441 verbose parsed url { protocol: null,
+441 verbose parsed url   slashes: null,
+441 verbose parsed url   auth: null,
+441 verbose parsed url   host: null,
+441 verbose parsed url   port: null,
+441 verbose parsed url   hostname: null,
+441 verbose parsed url   hash: null,
+441 verbose parsed url   search: null,
+441 verbose parsed url   query: null,
+441 verbose parsed url   pathname: 'lodash@~0.9.0',
+441 verbose parsed url   path: 'lodash@~0.9.0',
+441 verbose parsed url   href: 'lodash@~0.9.0' }
+442 verbose cache add name="lodash" spec="~0.9.0" args=["lodash","~0.9.0"]
+443 verbose parsed url { protocol: null,
+443 verbose parsed url   slashes: null,
+443 verbose parsed url   auth: null,
+443 verbose parsed url   host: null,
+443 verbose parsed url   port: null,
+443 verbose parsed url   hostname: null,
+443 verbose parsed url   hash: null,
+443 verbose parsed url   search: null,
+443 verbose parsed url   query: null,
+443 verbose parsed url   pathname: '~0.9.0',
+443 verbose parsed url   path: '~0.9.0',
+443 verbose parsed url   href: '~0.9.0' }
+444 verbose addNamed [ 'lodash', '~0.9.0' ]
+445 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+446 silly lockFile 429879b8-lodash-0-9-0 lodash@~0.9.0
+447 verbose lock lodash@~0.9.0 /home/leah/.npm/429879b8-lodash-0-9-0.lock
+448 verbose cache add [ 'underscore.string@~2.2.0rc', null ]
+449 verbose cache add name=undefined spec="underscore.string@~2.2.0rc" args=["underscore.string@~2.2.0rc",null]
+450 verbose parsed url { protocol: null,
+450 verbose parsed url   slashes: null,
+450 verbose parsed url   auth: null,
+450 verbose parsed url   host: null,
+450 verbose parsed url   port: null,
+450 verbose parsed url   hostname: null,
+450 verbose parsed url   hash: null,
+450 verbose parsed url   search: null,
+450 verbose parsed url   query: null,
+450 verbose parsed url   pathname: 'underscore.string@~2.2.0rc',
+450 verbose parsed url   path: 'underscore.string@~2.2.0rc',
+450 verbose parsed url   href: 'underscore.string@~2.2.0rc' }
+451 verbose cache add name="underscore.string" spec="~2.2.0rc" args=["underscore.string","~2.2.0rc"]
+452 verbose parsed url { protocol: null,
+452 verbose parsed url   slashes: null,
+452 verbose parsed url   auth: null,
+452 verbose parsed url   host: null,
+452 verbose parsed url   port: null,
+452 verbose parsed url   hostname: null,
+452 verbose parsed url   hash: null,
+452 verbose parsed url   search: null,
+452 verbose parsed url   query: null,
+452 verbose parsed url   pathname: '~2.2.0rc',
+452 verbose parsed url   path: '~2.2.0rc',
+452 verbose parsed url   href: '~2.2.0rc' }
+453 verbose addNamed [ 'underscore.string', '~2.2.0rc' ]
+454 verbose addNamed [ null, null ]
+455 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+456 verbose lock underscore.string@~2.2.0rc /home/leah/.npm/d5a5a3c6-underscore-string-2-2-0rc.lock
+457 verbose cache add [ 'which@~1.0.5', null ]
+458 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+459 verbose parsed url { protocol: null,
+459 verbose parsed url   slashes: null,
+459 verbose parsed url   auth: null,
+459 verbose parsed url   host: null,
+459 verbose parsed url   port: null,
+459 verbose parsed url   hostname: null,
+459 verbose parsed url   hash: null,
+459 verbose parsed url   search: null,
+459 verbose parsed url   query: null,
+459 verbose parsed url   pathname: 'which@~1.0.5',
+459 verbose parsed url   path: 'which@~1.0.5',
+459 verbose parsed url   href: 'which@~1.0.5' }
+460 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+461 verbose parsed url { protocol: null,
+461 verbose parsed url   slashes: null,
+461 verbose parsed url   auth: null,
+461 verbose parsed url   host: null,
+461 verbose parsed url   port: null,
+461 verbose parsed url   hostname: null,
+461 verbose parsed url   hash: null,
+461 verbose parsed url   search: null,
+461 verbose parsed url   query: null,
+461 verbose parsed url   pathname: '~1.0.5',
+461 verbose parsed url   path: '~1.0.5',
+461 verbose parsed url   href: '~1.0.5' }
+462 verbose addNamed [ 'which', '~1.0.5' ]
+463 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+464 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+465 verbose lock which@~1.0.5 /home/leah/.npm/d158d65e-which-1-0-5.lock
+466 verbose cache add [ 'js-yaml@~2.0.2', null ]
+467 verbose cache add name=undefined spec="js-yaml@~2.0.2" args=["js-yaml@~2.0.2",null]
+468 verbose parsed url { protocol: null,
+468 verbose parsed url   slashes: null,
+468 verbose parsed url   auth: null,
+468 verbose parsed url   host: null,
+468 verbose parsed url   port: null,
+468 verbose parsed url   hostname: null,
+468 verbose parsed url   hash: null,
+468 verbose parsed url   search: null,
+468 verbose parsed url   query: null,
+468 verbose parsed url   pathname: 'js-yaml@~2.0.2',
+468 verbose parsed url   path: 'js-yaml@~2.0.2',
+468 verbose parsed url   href: 'js-yaml@~2.0.2' }
+469 verbose cache add name="js-yaml" spec="~2.0.2" args=["js-yaml","~2.0.2"]
+470 verbose parsed url { protocol: null,
+470 verbose parsed url   slashes: null,
+470 verbose parsed url   auth: null,
+470 verbose parsed url   host: null,
+470 verbose parsed url   port: null,
+470 verbose parsed url   hostname: null,
+470 verbose parsed url   hash: null,
+470 verbose parsed url   search: null,
+470 verbose parsed url   query: null,
+470 verbose parsed url   pathname: '~2.0.2',
+470 verbose parsed url   path: '~2.0.2',
+470 verbose parsed url   href: '~2.0.2' }
+471 verbose addNamed [ 'js-yaml', '~2.0.2' ]
+472 verbose addNamed [ null, '>=2.0.2-0 <2.1.0-0' ]
+473 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+474 verbose lock js-yaml@~2.0.2 /home/leah/.npm/0dc3e23f-js-yaml-2-0-2.lock
+475 verbose cache add [ 'async@~0.1.22', null ]
+476 verbose cache add name=undefined spec="async@~0.1.22" args=["async@~0.1.22",null]
+477 verbose parsed url { protocol: null,
+477 verbose parsed url   slashes: null,
+477 verbose parsed url   auth: null,
+477 verbose parsed url   host: null,
+477 verbose parsed url   port: null,
+477 verbose parsed url   hostname: null,
+477 verbose parsed url   hash: null,
+477 verbose parsed url   search: null,
+477 verbose parsed url   query: null,
+477 verbose parsed url   pathname: 'async@~0.1.22',
+477 verbose parsed url   path: 'async@~0.1.22',
+477 verbose parsed url   href: 'async@~0.1.22' }
+478 verbose cache add name="async" spec="~0.1.22" args=["async","~0.1.22"]
+479 verbose parsed url { protocol: null,
+479 verbose parsed url   slashes: null,
+479 verbose parsed url   auth: null,
+479 verbose parsed url   host: null,
+479 verbose parsed url   port: null,
+479 verbose parsed url   hostname: null,
+479 verbose parsed url   hash: null,
+479 verbose parsed url   search: null,
+479 verbose parsed url   query: null,
+479 verbose parsed url   pathname: '~0.1.22',
+479 verbose parsed url   path: '~0.1.22',
+479 verbose parsed url   href: '~0.1.22' }
+480 verbose addNamed [ 'async', '~0.1.22' ]
+481 verbose addNamed [ null, '>=0.1.22-0 <0.2.0-0' ]
+482 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+483 verbose lock async@~0.1.22 /home/leah/.npm/3af71045-async-0-1-22.lock
+484 verbose cache add [ 'coffee-script@~1.3.3', null ]
+485 verbose cache add name=undefined spec="coffee-script@~1.3.3" args=["coffee-script@~1.3.3",null]
+486 verbose parsed url { protocol: null,
+486 verbose parsed url   slashes: null,
+486 verbose parsed url   auth: null,
+486 verbose parsed url   host: null,
+486 verbose parsed url   port: null,
+486 verbose parsed url   hostname: null,
+486 verbose parsed url   hash: null,
+486 verbose parsed url   search: null,
+486 verbose parsed url   query: null,
+486 verbose parsed url   pathname: 'coffee-script@~1.3.3',
+486 verbose parsed url   path: 'coffee-script@~1.3.3',
+486 verbose parsed url   href: 'coffee-script@~1.3.3' }
+487 verbose cache add name="coffee-script" spec="~1.3.3" args=["coffee-script","~1.3.3"]
+488 verbose parsed url { protocol: null,
+488 verbose parsed url   slashes: null,
+488 verbose parsed url   auth: null,
+488 verbose parsed url   host: null,
+488 verbose parsed url   port: null,
+488 verbose parsed url   hostname: null,
+488 verbose parsed url   hash: null,
+488 verbose parsed url   search: null,
+488 verbose parsed url   query: null,
+488 verbose parsed url   pathname: '~1.3.3',
+488 verbose parsed url   path: '~1.3.3',
+488 verbose parsed url   href: '~1.3.3' }
+489 verbose addNamed [ 'coffee-script', '~1.3.3' ]
+490 verbose addNamed [ null, '>=1.3.3-0 <1.4.0-0' ]
+491 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+492 verbose lock coffee-script@~1.3.3 /home/leah/.npm/f72bb580-coffee-script-1-3-3.lock
+493 silly addNameRange { name: 'colors', range: '>=0.6.0-1 <0.7.0-0', hasData: false }
+494 silly addNameRange { name: 'eventemitter2',
+494 silly addNameRange   range: '>=0.4.9-0 <0.5.0-0',
+494 silly addNameRange   hasData: false }
+495 silly addNameRange { name: 'findup-sync',
+495 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+495 silly addNameRange   hasData: false }
+496 silly addNameRange { name: 'glob', range: '>=3.1.21-0 <3.2.0-0', hasData: false }
+497 silly addNameRange { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+498 silly addNameRange { name: 'iconv-lite',
+498 silly addNameRange   range: '>=0.2.5-0 <0.3.0-0',
+498 silly addNameRange   hasData: false }
+499 silly addNameRange { name: 'minimatch',
+499 silly addNameRange   range: '>=0.2.6-0 <0.3.0-0',
+499 silly addNameRange   hasData: false }
+500 silly addNameRange { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: false }
+501 silly addNameRange { name: 'rimraf', range: '>=2.0.2-0 <2.1.0-0', hasData: false }
+502 silly addNameRange { name: 'lodash', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+503 silly addNameRange { name: 'underscore.string',
+503 silly addNameRange   range: '>=2.2.0-rc <2.3.0-0',
+503 silly addNameRange   hasData: false }
+504 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+505 silly addNameRange { name: 'js-yaml', range: '>=2.0.2-0 <2.1.0-0', hasData: false }
+506 silly addNameRange { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: false }
+507 silly addNameRange { name: 'coffee-script',
+507 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+507 silly addNameRange   hasData: false }
+508 verbose url raw colors
+509 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+510 verbose url resolved https://registry.npmjs.org/colors
+511 info trying registry request attempt 1 at 12:46:35
+512 verbose etag "6A8GBHDKZ62PGBI3M1NRGH6L7"
+513 http GET https://registry.npmjs.org/colors
+514 verbose url raw dateformat/1.0.2-1.2.3
+515 verbose url resolving [ 'https://registry.npmjs.org/', './dateformat/1.0.2-1.2.3' ]
+516 verbose url resolved https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+517 info trying registry request attempt 1 at 12:46:35
+518 verbose etag "53MGS4758SFBP4J0VMOWHAVRB"
+519 http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+520 verbose url raw eventemitter2
+521 verbose url resolving [ 'https://registry.npmjs.org/', './eventemitter2' ]
+522 verbose url resolved https://registry.npmjs.org/eventemitter2
+523 info trying registry request attempt 1 at 12:46:35
+524 verbose etag "AVDFXO3Z0C3KMSBGB7JOT9R8S"
+525 http GET https://registry.npmjs.org/eventemitter2
+526 verbose url raw findup-sync
+527 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+528 verbose url resolved https://registry.npmjs.org/findup-sync
+529 info trying registry request attempt 1 at 12:46:35
+530 http GET https://registry.npmjs.org/findup-sync
+531 verbose url raw glob
+532 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+533 verbose url resolved https://registry.npmjs.org/glob
+534 info trying registry request attempt 1 at 12:46:35
+535 http GET https://registry.npmjs.org/glob
+536 verbose url raw hooker
+537 verbose url resolving [ 'https://registry.npmjs.org/', './hooker' ]
+538 verbose url resolved https://registry.npmjs.org/hooker
+539 info trying registry request attempt 1 at 12:46:35
+540 verbose etag "4NS4EOCQXZ0NB6PG3PIW1TD6M"
+541 http GET https://registry.npmjs.org/hooker
+542 verbose url raw iconv-lite
+543 verbose url resolving [ 'https://registry.npmjs.org/', './iconv-lite' ]
+544 verbose url resolved https://registry.npmjs.org/iconv-lite
+545 info trying registry request attempt 1 at 12:46:35
+546 verbose etag "A2T3FVHI8039SNILC54LU3Y3S"
+547 http GET https://registry.npmjs.org/iconv-lite
+548 verbose url raw minimatch
+549 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+550 verbose url resolved https://registry.npmjs.org/minimatch
+551 info trying registry request attempt 1 at 12:46:35
+552 verbose etag "433GUXE31BY78MEUH5M7CIXOG"
+553 http GET https://registry.npmjs.org/minimatch
+554 verbose url raw nopt
+555 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+556 verbose url resolved https://registry.npmjs.org/nopt
+557 info trying registry request attempt 1 at 12:46:35
+558 verbose etag "AETEJQ6065IDOK92C9USEU3FY"
+559 http GET https://registry.npmjs.org/nopt
+560 verbose url raw rimraf
+561 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+562 verbose url resolved https://registry.npmjs.org/rimraf
+563 info trying registry request attempt 1 at 12:46:35
+564 verbose etag "50X3LWQDSY1SAULXQ7QRKW4PE"
+565 http GET https://registry.npmjs.org/rimraf
+566 info trying registry request attempt 2 at 12:46:45
+567 verbose etag "CJI82ZWGCYWVRM5U9S0JHMFY3"
+568 http GET https://registry.npmjs.org/connect
+569 info trying registry request attempt 2 at 12:46:45
+570 verbose etag "9BWRMZUCI79GJU28K7P2A47GL"
+571 http GET https://registry.npmjs.org/connect-livereload
+572 info trying registry request attempt 2 at 12:46:45
+573 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+574 http GET https://registry.npmjs.org/open/0.0.4
+575 info trying registry request attempt 2 at 12:46:45
+576 verbose etag "95Z66LNXS1GMMESYJEVQQW0KY"
+577 http GET https://registry.npmjs.org/grunt-lib-phantomjs
+578 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+579 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+580 verbose url raw lodash
+581 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+582 verbose url resolved https://registry.npmjs.org/lodash
+583 info trying registry request attempt 1 at 12:47:15
+584 verbose etag "7XY0L4Y8WEFEK0D5KP9B0K5YW"
+585 http GET https://registry.npmjs.org/lodash
+586 verbose url raw underscore.string
+587 verbose url resolving [ 'https://registry.npmjs.org/', './underscore.string' ]
+588 verbose url resolved https://registry.npmjs.org/underscore.string
+589 info trying registry request attempt 1 at 12:47:15
+590 verbose etag "82KONBUKGVFGLKPUIJ91QHEA4"
+591 http GET https://registry.npmjs.org/underscore.string
+592 verbose url raw which
+593 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+594 verbose url resolved https://registry.npmjs.org/which
+595 info trying registry request attempt 1 at 12:47:15
+596 verbose etag "43PJVZ0U2IY5DUOK5LXY2JGYD"
+597 http GET https://registry.npmjs.org/which
+598 verbose url raw js-yaml
+599 verbose url resolving [ 'https://registry.npmjs.org/', './js-yaml' ]
+600 verbose url resolved https://registry.npmjs.org/js-yaml
+601 info trying registry request attempt 1 at 12:47:15
+602 verbose etag "2RITD05N54RKF0B1V0JSYRRC5"
+603 http GET https://registry.npmjs.org/js-yaml
+604 verbose url raw async
+605 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+606 verbose url resolved https://registry.npmjs.org/async
+607 info trying registry request attempt 1 at 12:47:15
+608 verbose etag "8I9XZYCF67J4501HYBMP2DHOR"
+609 http GET https://registry.npmjs.org/async
+610 verbose url raw coffee-script
+611 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+612 verbose url resolved https://registry.npmjs.org/coffee-script
+613 info trying registry request attempt 1 at 12:47:15
+614 verbose etag "2HZAL9J6YNYHX7K414IYU5MS"
+615 http GET https://registry.npmjs.org/coffee-script
+616 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+617 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+618 info trying registry request attempt 2 at 12:47:25
+619 verbose etag "6A8GBHDKZ62PGBI3M1NRGH6L7"
+620 http GET https://registry.npmjs.org/colors
+621 info trying registry request attempt 2 at 12:47:25
+622 verbose etag "53MGS4758SFBP4J0VMOWHAVRB"
+623 http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+624 info trying registry request attempt 2 at 12:47:25
+625 verbose etag "AVDFXO3Z0C3KMSBGB7JOT9R8S"
+626 http GET https://registry.npmjs.org/eventemitter2
+627 info trying registry request attempt 2 at 12:47:25
+628 http GET https://registry.npmjs.org/findup-sync
+629 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+630 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+631 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+632 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+633 info trying registry request attempt 2 at 12:48:05
+634 http GET https://registry.npmjs.org/glob
+635 info trying registry request attempt 2 at 12:48:05
+636 verbose etag "4NS4EOCQXZ0NB6PG3PIW1TD6M"
+637 http GET https://registry.npmjs.org/hooker
+638 info trying registry request attempt 2 at 12:48:05
+639 verbose etag "A2T3FVHI8039SNILC54LU3Y3S"
+640 http GET https://registry.npmjs.org/iconv-lite
+641 info trying registry request attempt 2 at 12:48:06
+642 verbose etag "433GUXE31BY78MEUH5M7CIXOG"
+643 http GET https://registry.npmjs.org/minimatch
+644 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+645 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+646 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+647 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+648 info trying registry request attempt 2 at 12:48:45
+649 verbose etag "50X3LWQDSY1SAULXQ7QRKW4PE"
+650 http GET https://registry.npmjs.org/rimraf
+651 info trying registry request attempt 2 at 12:48:45
+652 verbose etag "AETEJQ6065IDOK92C9USEU3FY"
+653 http GET https://registry.npmjs.org/nopt
+654 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+655 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+656 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+657 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+658 info trying registry request attempt 2 at 12:49:26
+659 verbose etag "7XY0L4Y8WEFEK0D5KP9B0K5YW"
+660 http GET https://registry.npmjs.org/lodash
+661 info trying registry request attempt 2 at 12:49:26
+662 verbose etag "82KONBUKGVFGLKPUIJ91QHEA4"
+663 http GET https://registry.npmjs.org/underscore.string
+664 info trying registry request attempt 3 at 12:49:35
+665 verbose etag "CJI82ZWGCYWVRM5U9S0JHMFY3"
+666 http GET https://registry.npmjs.org/connect
+667 info trying registry request attempt 3 at 12:49:36
+668 verbose etag "9BWRMZUCI79GJU28K7P2A47GL"
+669 http GET https://registry.npmjs.org/connect-livereload
+670 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+671 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+672 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+673 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+674 info trying registry request attempt 2 at 12:50:06
+675 verbose etag "43PJVZ0U2IY5DUOK5LXY2JGYD"
+676 http GET https://registry.npmjs.org/which
+677 info trying registry request attempt 2 at 12:50:06
+678 verbose etag "2RITD05N54RKF0B1V0JSYRRC5"
+679 http GET https://registry.npmjs.org/js-yaml
+680 info trying registry request attempt 2 at 12:50:06
+681 verbose etag "8I9XZYCF67J4501HYBMP2DHOR"
+682 http GET https://registry.npmjs.org/async
+683 info trying registry request attempt 2 at 12:50:06
+684 verbose etag "2HZAL9J6YNYHX7K414IYU5MS"
+685 http GET https://registry.npmjs.org/coffee-script
+686 info trying registry request attempt 3 at 12:50:16
+687 verbose etag "95Z66LNXS1GMMESYJEVQQW0KY"
+688 http GET https://registry.npmjs.org/grunt-lib-phantomjs
+689 info trying registry request attempt 3 at 12:50:16
+690 verbose etag "C17F4Z86X389UGJ6Z9ZWH8HPI"
+691 http GET https://registry.npmjs.org/open/0.0.4
+692 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+693 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+694 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+695 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+696 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+697 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+698 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+699 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+700 info trying registry request attempt 3 at 12:51:36
+701 verbose etag "53MGS4758SFBP4J0VMOWHAVRB"
+702 http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+703 info trying registry request attempt 3 at 12:51:36
+704 verbose etag "6A8GBHDKZ62PGBI3M1NRGH6L7"
+705 http GET https://registry.npmjs.org/colors
+706 info trying registry request attempt 3 at 12:51:36
+707 verbose etag "AVDFXO3Z0C3KMSBGB7JOT9R8S"
+708 http GET https://registry.npmjs.org/eventemitter2
+709 info trying registry request attempt 3 at 12:51:36
+710 http GET https://registry.npmjs.org/findup-sync
+711 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+712 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+713 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+714 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+715 info trying registry request attempt 3 at 12:52:16
+716 verbose etag "4NS4EOCQXZ0NB6PG3PIW1TD6M"
+717 http GET https://registry.npmjs.org/hooker
+718 info trying registry request attempt 3 at 12:52:16
+719 http GET https://registry.npmjs.org/glob
+720 info trying registry request attempt 3 at 12:52:16
+721 verbose etag "A2T3FVHI8039SNILC54LU3Y3S"
+722 http GET https://registry.npmjs.org/iconv-lite
+723 info trying registry request attempt 3 at 12:52:16
+724 verbose etag "433GUXE31BY78MEUH5M7CIXOG"
+725 http GET https://registry.npmjs.org/minimatch
+726 silly registry.get cb [ 304, undefined ]
+727 verbose etag connect-livereload from cache
+728 silly registry.get cb [ 304, undefined ]
+729 verbose etag connect from cache
+730 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+731 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+732 info trying registry request attempt 3 at 12:52:56
+733 verbose etag "AETEJQ6065IDOK92C9USEU3FY"
+734 http GET https://registry.npmjs.org/nopt
+735 info trying registry request attempt 3 at 12:52:56
+736 verbose etag "50X3LWQDSY1SAULXQ7QRKW4PE"
+737 http GET https://registry.npmjs.org/rimraf
+738 info trying registry request attempt 3 at 12:52:56
+739 verbose etag "7XY0L4Y8WEFEK0D5KP9B0K5YW"
+740 http GET https://registry.npmjs.org/lodash
+741 info trying registry request attempt 3 at 12:52:56
+742 verbose etag "82KONBUKGVFGLKPUIJ91QHEA4"
+743 http GET https://registry.npmjs.org/underscore.string
+744 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+745 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+746 silly registry.get cb [ 304, undefined ]
+747 verbose etag grunt-lib-phantomjs from cache
+748 silly registry.get cb [ 304, undefined ]
+749 verbose etag open/0.0.4 from cache
+750 info trying registry request attempt 3 at 12:53:36
+751 verbose etag "43PJVZ0U2IY5DUOK5LXY2JGYD"
+752 http GET https://registry.npmjs.org/which
+753 info trying registry request attempt 3 at 12:53:36
+754 verbose etag "2RITD05N54RKF0B1V0JSYRRC5"
+755 http GET https://registry.npmjs.org/js-yaml
+756 silly registry.get cb [ 304, undefined ]
+757 verbose etag colors from cache
+758 silly registry.get cb [ 304, undefined ]
+759 verbose etag dateformat/1.0.2-1.2.3 from cache
+760 silly registry.get cb [ 304, undefined ]
+761 verbose etag eventemitter2 from cache
+762 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+763 silly lockFile 625605b9-findup-sync-0-1-0 findup-sync@~0.1.0
+764 info trying registry request attempt 3 at 12:54:16
+765 verbose etag "2HZAL9J6YNYHX7K414IYU5MS"
+766 http GET https://registry.npmjs.org/coffee-script
+767 info trying registry request attempt 3 at 12:54:16
+768 verbose etag "8I9XZYCF67J4501HYBMP2DHOR"
+769 http GET https://registry.npmjs.org/async
+770 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+771 silly lockFile b5074ddc-glob-3-1-21 glob@~3.1.21
+772 verbose about to build /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt
+773 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt unbuild
+774 info preuninstall grunt@0.4.1
+775 silly registry.get cb [ 304, undefined ]
+776 verbose etag hooker from cache
+777 silly addNameRange number 2 { name: 'connect-livereload',
+777 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+777 silly addNameRange   hasData: true }
+778 silly addNameRange versions [ 'connect-livereload',
+778 silly addNameRange   [ '0.0.2',
+778 silly addNameRange     '0.0.3',
+778 silly addNameRange     '0.1.0',
+778 silly addNameRange     '0.1.1',
+778 silly addNameRange     '0.1.2',
+778 silly addNameRange     '0.1.3',
+778 silly addNameRange     '0.1.4',
+778 silly addNameRange     '0.2.0',
+778 silly addNameRange     '0.3.0' ] ]
+779 verbose addNamed [ 'connect-livereload', '0.2.0' ]
+780 verbose addNamed [ '0.2.0', '0.2.0' ]
+781 silly lockFile 34a70f1d-connect-livereload-0-2-0 connect-livereload@0.2.0
+782 verbose lock connect-livereload@0.2.0 /home/leah/.npm/34a70f1d-connect-livereload-0-2-0.lock
+783 silly registry.get cb [ 304, undefined ]
+784 verbose etag iconv-lite from cache
+785 silly addNameRange number 2 { name: 'connect', range: '>=2.7.11-0 <2.8.0-0', hasData: true }
+786 silly addNameRange versions [ 'connect',
+786 silly addNameRange   [ '0.0.1',
+786 silly addNameRange     '0.0.2',
+786 silly addNameRange     '0.0.3',
+786 silly addNameRange     '0.0.4',
+786 silly addNameRange     '0.0.5',
+786 silly addNameRange     '0.0.6',
+786 silly addNameRange     '0.1.0',
+786 silly addNameRange     '0.2.0',
+786 silly addNameRange     '0.2.1',
+786 silly addNameRange     '0.2.2',
+786 silly addNameRange     '0.2.3',
+786 silly addNameRange     '0.2.4',
+786 silly addNameRange     '0.2.5',
+786 silly addNameRange     '0.2.6',
+786 silly addNameRange     '0.2.7',
+786 silly addNameRange     '0.3.0',
+786 silly addNameRange     '0.4.0',
+786 silly addNameRange     '0.5.0',
+786 silly addNameRange     '0.5.1',
+786 silly addNameRange     '0.5.2',
+786 silly addNameRange     '0.5.3',
+786 silly addNameRange     '0.5.4',
+786 silly addNameRange     '0.5.5',
+786 silly addNameRange     '0.5.6',
+786 silly addNameRange     '0.5.7',
+786 silly addNameRange     '0.5.8',
+786 silly addNameRange     '0.5.9',
+786 silly addNameRange     '0.5.10',
+786 silly addNameRange     '1.0.0',
+786 silly addNameRange     '1.0.1',
+786 silly addNameRange     '1.0.2',
+786 silly addNameRange     '1.0.3',
+786 silly addNameRange     '1.0.4',
+786 silly addNameRange     '1.0.5',
+786 silly addNameRange     '1.0.6',
+786 silly addNameRange     '1.1.0',
+786 silly addNameRange     '1.1.1',
+786 silly addNameRange     '1.1.2',
+786 silly addNameRange     '1.1.3',
+786 silly addNameRange     '1.1.4',
+786 silly addNameRange     '1.1.5',
+786 silly addNameRange     '1.2.0',
+786 silly addNameRange     '1.2.1',
+786 silly addNameRange     '1.2.2',
+786 silly addNameRange     '1.2.3',
+786 silly addNameRange     '1.3.0',
+786 silly addNameRange     '1.4.0',
+786 silly addNameRange     '1.4.1',
+786 silly addNameRange     '1.4.2',
+786 silly addNameRange     '1.4.3',
+786 silly addNameRange     '1.4.4',
+786 silly addNameRange     '1.4.5',
+786 silly addNameRange     '1.4.6',
+786 silly addNameRange     '1.5.0',
+786 silly addNameRange     '1.5.1',
+786 silly addNameRange     '1.5.2',
+786 silly addNameRange     '1.6.0',
+786 silly addNameRange     '1.6.1',
+786 silly addNameRange     '1.6.2',
+786 silly addNameRange     '1.6.3',
+786 silly addNameRange     '1.6.4',
+786 silly addNameRange     '1.7.0',
+786 silly addNameRange     '1.7.1',
+786 silly addNameRange     '1.7.2',
+786 silly addNameRange     '1.7.3',
+786 silly addNameRange     '1.8.0',
+786 silly addNameRange     '1.8.1',
+786 silly addNameRange     '1.8.2',
+786 silly addNameRange     '1.8.3',
+786 silly addNameRange     '1.8.4',
+786 silly addNameRange     '1.8.5',
+786 silly addNameRange     '2.0.0',
+786 silly addNameRange     '2.0.1',
+786 silly addNameRange     '2.0.2',
+786 silly addNameRange     '2.0.3',
+786 silly addNameRange     '1.8.6',
+786 silly addNameRange     '2.1.0',
+786 silly addNameRange     '2.1.1',
+786 silly addNameRange     '2.1.2',
+786 silly addNameRange     '1.8.7',
+786 silly addNameRange     '2.1.3',
+786 silly addNameRange     '2.2.0',
+786 silly addNameRange     '2.2.1',
+786 silly addNameRange     '2.2.2',
+786 silly addNameRange     '2.3.0',
+786 silly addNameRange     '2.3.1',
+786 silly addNameRange     '2.3.2',
+786 silly addNameRange     '2.3.3',
+786 silly addNameRange     '1.9.0',
+786 silly addNameRange     '1.9.1',
+786 silly addNameRange     '2.3.4',
+786 silly addNameRange     '2.3.5',
+786 silly addNameRange     '2.3.6',
+786 silly addNameRange     '2.3.7',
+786 silly addNameRange     '1.9.2',
+786 silly addNameRange     '2.3.8',
+786 silly addNameRange     '2.3.9',
+786 silly addNameRange     '2.4.0',
+786 silly addNameRange     '2.4.1',
+786 silly addNameRange     '2.4.2',
+786 silly addNameRange     '2.4.3',
+786 silly addNameRange     '2.4.4',
+786 silly addNameRange     '2.4.5',
+786 silly addNameRange     '2.4.6',
+786 silly addNameRange     '2.5.0',
+786 silly addNameRange     '2.6.0',
+786 silly addNameRange     '2.6.1',
+786 silly addNameRange     '2.6.2',
+786 silly addNameRange     '2.7.0',
+786 silly addNameRange     '2.7.1',
+786 silly addNameRange     '2.7.2',
+786 silly addNameRange     '2.7.3',
+786 silly addNameRange     '2.7.4',
+786 silly addNameRange     '2.7.5',
+786 silly addNameRange     '2.7.6',
+786 silly addNameRange     '2.7.7',
+786 silly addNameRange     '2.7.8',
+786 silly addNameRange     '2.7.9',
+786 silly addNameRange     '2.7.10',
+786 silly addNameRange     '2.7.11',
+786 silly addNameRange     '2.8.0',
+786 silly addNameRange     '2.8.1',
+786 silly addNameRange     '2.8.2',
+786 silly addNameRange     '2.8.3',
+786 silly addNameRange     '2.8.4',
+786 silly addNameRange     '2.8.5',
+786 silly addNameRange     '2.8.6',
+786 silly addNameRange     '2.8.7',
+786 silly addNameRange     '2.8.8',
+786 silly addNameRange     '2.9.0',
+786 silly addNameRange     '2.9.1',
+786 silly addNameRange     '2.9.2' ] ]
+787 verbose addNamed [ 'connect', '2.7.11' ]
+788 verbose addNamed [ '2.7.11', '2.7.11' ]
+789 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+790 verbose lock connect@2.7.11 /home/leah/.npm/4ba73353-connect-2-7-11.lock
+791 silly registry.get cb [ 304, undefined ]
+792 verbose etag minimatch from cache
+793 silly registry.get cb [ 304, undefined ]
+794 verbose etag rimraf from cache
+795 info uninstall grunt@0.4.1
+796 silly registry.get cb [ 304, undefined ]
+797 verbose etag nopt from cache
+798 silly registry.get cb [ 304, undefined ]
+799 verbose etag lodash from cache
+800 silly registry.get cb [ 304, undefined ]
+801 verbose etag underscore.string from cache
+802 silly addNameRange number 2 { name: 'grunt-lib-phantomjs',
+802 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+802 silly addNameRange   hasData: true }
+803 silly addNameRange versions [ 'grunt-lib-phantomjs',
+803 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.4.0' ] ]
+804 verbose addNamed [ 'grunt-lib-phantomjs', '0.4.0' ]
+805 verbose addNamed [ '0.4.0', '0.4.0' ]
+806 silly lockFile 90249798-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@0.4.0
+807 verbose lock grunt-lib-phantomjs@0.4.0 /home/leah/.npm/90249798-grunt-lib-phantomjs-0-4-0.lock
+808 silly registry.get cb [ 304, undefined ]
+809 verbose etag js-yaml from cache
+810 verbose true,/home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules,/home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules unbuild grunt@0.4.1
+811 info postuninstall grunt@0.4.1
+812 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0-1 <0.7.0-0', hasData: true }
+813 silly addNameRange versions [ 'colors',
+813 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+814 verbose addNamed [ 'colors', '0.6.2' ]
+815 verbose addNamed [ '0.6.2', '0.6.2' ]
+816 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+817 verbose lock colors@0.6.2 /home/leah/.npm/1ce149d5-colors-0-6-2.lock
+818 silly registry.get cb [ 304, undefined ]
+819 verbose etag which from cache
+820 silly addNameRange number 2 { name: 'eventemitter2',
+820 silly addNameRange   range: '>=0.4.9-0 <0.5.0-0',
+820 silly addNameRange   hasData: true }
+821 silly addNameRange versions [ 'eventemitter2',
+821 silly addNameRange   [ '0.0.1',
+821 silly addNameRange     '0.1.0',
+821 silly addNameRange     '0.1.1',
+821 silly addNameRange     '0.1.3',
+821 silly addNameRange     '0.2.5',
+821 silly addNameRange     '0.2.6',
+821 silly addNameRange     '0.2.7',
+821 silly addNameRange     '0.3.5',
+821 silly addNameRange     '0.3.6',
+821 silly addNameRange     '0.3.7',
+821 silly addNameRange     '0.4.0',
+821 silly addNameRange     '0.4.1',
+821 silly addNameRange     '0.4.3',
+821 silly addNameRange     '0.4.6',
+821 silly addNameRange     '0.4.7',
+821 silly addNameRange     '0.4.8',
+821 silly addNameRange     '0.4.9',
+821 silly addNameRange     '0.4.10',
+821 silly addNameRange     '0.4.11',
+821 silly addNameRange     '0.4.12',
+821 silly addNameRange     '0.4.13' ] ]
+822 verbose addNamed [ 'eventemitter2', '0.4.13' ]
+823 verbose addNamed [ '0.4.13', '0.4.13' ]
+824 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+825 verbose lock eventemitter2@0.4.13 /home/leah/.npm/2bed8da6-eventemitter2-0-4-13.lock
+826 silly registry.get cb [ 304, undefined ]
+827 verbose etag coffee-script from cache
+828 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+829 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+830 verbose addNamed [ 'hooker', '0.2.3' ]
+831 verbose addNamed [ '0.2.3', '0.2.3' ]
+832 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+833 verbose lock hooker@0.2.3 /home/leah/.npm/97e6505f-hooker-0-2-3.lock
+834 silly addNameRange number 2 { name: 'iconv-lite',
+834 silly addNameRange   range: '>=0.2.5-0 <0.3.0-0',
+834 silly addNameRange   hasData: true }
+835 silly addNameRange versions [ 'iconv-lite',
+835 silly addNameRange   [ '0.1.0',
+835 silly addNameRange     '0.1.1',
+835 silly addNameRange     '0.1.2',
+835 silly addNameRange     '0.1.3',
+835 silly addNameRange     '0.1.4',
+835 silly addNameRange     '0.2.0',
+835 silly addNameRange     '0.2.1',
+835 silly addNameRange     '0.2.3',
+835 silly addNameRange     '0.2.4',
+835 silly addNameRange     '0.2.5',
+835 silly addNameRange     '0.2.6',
+835 silly addNameRange     '0.2.7',
+835 silly addNameRange     '0.2.8',
+835 silly addNameRange     '0.2.9',
+835 silly addNameRange     '0.2.10',
+835 silly addNameRange     '0.2.11' ] ]
+836 verbose addNamed [ 'iconv-lite', '0.2.11' ]
+837 verbose addNamed [ '0.2.11', '0.2.11' ]
+838 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+839 verbose lock iconv-lite@0.2.11 /home/leah/.npm/5d877021-iconv-lite-0-2-11.lock
+840 silly addNameRange number 2 { name: 'minimatch', range: '>=0.2.6-0 <0.3.0-0', hasData: true }
+841 silly addNameRange versions [ 'minimatch',
+841 silly addNameRange   [ '0.0.1',
+841 silly addNameRange     '0.0.2',
+841 silly addNameRange     '0.0.4',
+841 silly addNameRange     '0.0.5',
+841 silly addNameRange     '0.1.1',
+841 silly addNameRange     '0.1.2',
+841 silly addNameRange     '0.1.3',
+841 silly addNameRange     '0.1.4',
+841 silly addNameRange     '0.1.5',
+841 silly addNameRange     '0.2.0',
+841 silly addNameRange     '0.2.2',
+841 silly addNameRange     '0.2.3',
+841 silly addNameRange     '0.2.4',
+841 silly addNameRange     '0.2.5',
+841 silly addNameRange     '0.2.6',
+841 silly addNameRange     '0.2.7',
+841 silly addNameRange     '0.2.8',
+841 silly addNameRange     '0.2.9',
+841 silly addNameRange     '0.2.10',
+841 silly addNameRange     '0.2.11',
+841 silly addNameRange     '0.2.12' ] ]
+842 verbose addNamed [ 'minimatch', '0.2.12' ]
+843 verbose addNamed [ '0.2.12', '0.2.12' ]
+844 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+845 verbose lock minimatch@0.2.12 /home/leah/.npm/16b89810-minimatch-0-2-12.lock
+846 silly addNameRange number 2 { name: 'rimraf', range: '>=2.0.2-0 <2.1.0-0', hasData: true }
+847 silly addNameRange versions [ 'rimraf',
+847 silly addNameRange   [ '1.0.0',
+847 silly addNameRange     '1.0.1',
+847 silly addNameRange     '1.0.2',
+847 silly addNameRange     '1.0.4',
+847 silly addNameRange     '1.0.5',
+847 silly addNameRange     '1.0.6',
+847 silly addNameRange     '1.0.7',
+847 silly addNameRange     '1.0.8',
+847 silly addNameRange     '1.0.9',
+847 silly addNameRange     '2.0.0',
+847 silly addNameRange     '2.0.1',
+847 silly addNameRange     '2.0.2',
+847 silly addNameRange     '2.0.3',
+847 silly addNameRange     '2.1.0',
+847 silly addNameRange     '2.1.1',
+847 silly addNameRange     '2.1.2',
+847 silly addNameRange     '2.1.3',
+847 silly addNameRange     '2.1.4',
+847 silly addNameRange     '2.2.0',
+847 silly addNameRange     '2.2.1',
+847 silly addNameRange     '2.2.2' ] ]
+848 verbose addNamed [ 'rimraf', '2.0.3' ]
+849 verbose addNamed [ '2.0.3', '2.0.3' ]
+850 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+851 verbose lock rimraf@2.0.3 /home/leah/.npm/166fc4dd-rimraf-2-0-3.lock
+852 silly addNameRange number 2 { name: 'nopt', range: '>=1.0.10-0 <1.1.0-0', hasData: true }
+853 silly addNameRange versions [ 'nopt',
+853 silly addNameRange   [ '1.0.0',
+853 silly addNameRange     '1.0.1',
+853 silly addNameRange     '1.0.2',
+853 silly addNameRange     '1.0.3',
+853 silly addNameRange     '1.0.4',
+853 silly addNameRange     '1.0.5',
+853 silly addNameRange     '1.0.6',
+853 silly addNameRange     '1.0.7',
+853 silly addNameRange     '1.0.8',
+853 silly addNameRange     '1.0.9',
+853 silly addNameRange     '1.0.10',
+853 silly addNameRange     '2.0.0',
+853 silly addNameRange     '2.1.0',
+853 silly addNameRange     '2.1.1',
+853 silly addNameRange     '2.1.2' ] ]
+854 verbose addNamed [ 'nopt', '1.0.10' ]
+855 verbose addNamed [ '1.0.10', '1.0.10' ]
+856 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+857 verbose lock nopt@1.0.10 /home/leah/.npm/1be903a1-nopt-1-0-10.lock
+858 silly addNameRange number 2 { name: 'lodash', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+859 silly addNameRange versions [ 'lodash',
+859 silly addNameRange   [ '0.1.0',
+859 silly addNameRange     '0.2.0',
+859 silly addNameRange     '0.2.1',
+859 silly addNameRange     '0.2.2',
+859 silly addNameRange     '0.3.0',
+859 silly addNameRange     '0.3.1',
+859 silly addNameRange     '0.3.2',
+859 silly addNameRange     '0.4.0',
+859 silly addNameRange     '0.4.1',
+859 silly addNameRange     '0.4.2',
+859 silly addNameRange     '0.5.0-rc.1',
+859 silly addNameRange     '0.5.0',
+859 silly addNameRange     '0.5.1',
+859 silly addNameRange     '0.5.2',
+859 silly addNameRange     '0.6.0',
+859 silly addNameRange     '0.6.1',
+859 silly addNameRange     '0.7.0',
+859 silly addNameRange     '0.8.0',
+859 silly addNameRange     '0.8.1',
+859 silly addNameRange     '0.8.2',
+859 silly addNameRange     '0.9.0',
+859 silly addNameRange     '0.9.1',
+859 silly addNameRange     '0.9.2',
+859 silly addNameRange     '0.10.0',
+859 silly addNameRange     '1.0.0-rc.1',
+859 silly addNameRange     '1.0.0-rc.2',
+859 silly addNameRange     '1.0.0-rc.3',
+859 silly addNameRange     '1.0.0',
+859 silly addNameRange     '1.0.1',
+859 silly addNameRange     '1.1.0',
+859 silly addNameRange     '1.1.1',
+859 silly addNameRange     '1.2.0',
+859 silly addNameRange     '1.2.1',
+859 silly addNameRange     '1.3.0',
+859 silly addNameRange     '1.3.1',
+859 silly addNameRange     '2.0.0',
+859 silly addNameRange     '2.1.0',
+859 silly addNameRange     '2.2.0',
+859 silly addNameRange     '2.2.1' ] ]
+860 verbose addNamed [ 'lodash', '0.9.2' ]
+861 verbose addNamed [ '0.9.2', '0.9.2' ]
+862 silly lockFile 9802d919-lodash-0-9-2 lodash@0.9.2
+863 verbose lock lodash@0.9.2 /home/leah/.npm/9802d919-lodash-0-9-2.lock
+864 silly registry.get cb [ 304, undefined ]
+865 verbose etag async from cache
+866 silly addNameRange number 2 { name: 'underscore.string',
+866 silly addNameRange   range: '>=2.2.0-rc <2.3.0-0',
+866 silly addNameRange   hasData: true }
+867 silly addNameRange versions [ 'underscore.string',
+867 silly addNameRange   [ '0.9.2',
+867 silly addNameRange     '1.0.0',
+867 silly addNameRange     '1.1.3',
+867 silly addNameRange     '1.1.4',
+867 silly addNameRange     '1.1.5',
+867 silly addNameRange     '1.1.6',
+867 silly addNameRange     '2.0.0',
+867 silly addNameRange     '2.1.0',
+867 silly addNameRange     '2.1.1',
+867 silly addNameRange     '2.3.0',
+867 silly addNameRange     '2.3.1',
+867 silly addNameRange     '2.3.2',
+867 silly addNameRange     '2.2.1',
+867 silly addNameRange     '2.2.0-rc',
+867 silly addNameRange     '2.3.3' ] ]
+868 verbose addNamed [ 'underscore.string', '2.2.1' ]
+869 verbose addNamed [ '2.2.1', '2.2.1' ]
+870 silly lockFile 5c083954-underscore-string-2-2-1 underscore.string@2.2.1
+871 verbose lock underscore.string@2.2.1 /home/leah/.npm/5c083954-underscore-string-2-2-1.lock
+872 silly addNameRange number 2 { name: 'js-yaml', range: '>=2.0.2-0 <2.1.0-0', hasData: true }
+873 silly addNameRange versions [ 'js-yaml',
+873 silly addNameRange   [ '0.2.0',
+873 silly addNameRange     '0.2.1',
+873 silly addNameRange     '0.2.2',
+873 silly addNameRange     '0.3.0',
+873 silly addNameRange     '0.3.1',
+873 silly addNameRange     '0.3.2',
+873 silly addNameRange     '0.3.3',
+873 silly addNameRange     '0.3.4',
+873 silly addNameRange     '0.3.5',
+873 silly addNameRange     '0.3.6',
+873 silly addNameRange     '0.3.7',
+873 silly addNameRange     '1.0.0',
+873 silly addNameRange     '1.0.1',
+873 silly addNameRange     '1.0.2',
+873 silly addNameRange     '1.0.3',
+873 silly addNameRange     '2.0.0',
+873 silly addNameRange     '2.0.1',
+873 silly addNameRange     '2.0.2',
+873 silly addNameRange     '2.0.3',
+873 silly addNameRange     '2.0.4',
+873 silly addNameRange     '2.0.5',
+873 silly addNameRange     '2.1.0',
+873 silly addNameRange     '2.1.1',
+873 silly addNameRange     '2.1.2',
+873 silly addNameRange     '2.1.3' ] ]
+874 verbose addNamed [ 'js-yaml', '2.0.5' ]
+875 verbose addNamed [ '2.0.5', '2.0.5' ]
+876 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+877 verbose lock js-yaml@2.0.5 /home/leah/.npm/0aecb717-js-yaml-2-0-5.lock
+878 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+879 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+880 verbose addNamed [ 'which', '1.0.5' ]
+881 verbose addNamed [ '1.0.5', '1.0.5' ]
+882 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+883 verbose lock which@1.0.5 /home/leah/.npm/4aed4494-which-1-0-5.lock
+884 silly addNameRange number 2 { name: 'coffee-script',
+884 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+884 silly addNameRange   hasData: true }
+885 silly addNameRange versions [ 'coffee-script',
+885 silly addNameRange   [ '0.7.0',
+885 silly addNameRange     '0.7.1',
+885 silly addNameRange     '0.7.2',
+885 silly addNameRange     '0.9.0',
+885 silly addNameRange     '0.9.1',
+885 silly addNameRange     '0.9.2',
+885 silly addNameRange     '0.9.3',
+885 silly addNameRange     '0.9.4',
+885 silly addNameRange     '0.9.5',
+885 silly addNameRange     '0.9.6',
+885 silly addNameRange     '1.0.0',
+885 silly addNameRange     '1.0.1',
+885 silly addNameRange     '1.1.0',
+885 silly addNameRange     '1.1.1',
+885 silly addNameRange     '1.1.2',
+885 silly addNameRange     '1.1.3',
+885 silly addNameRange     '1.2.0',
+885 silly addNameRange     '1.3.0',
+885 silly addNameRange     '1.3.1',
+885 silly addNameRange     '1.3.2',
+885 silly addNameRange     '1.3.3',
+885 silly addNameRange     '1.4.0',
+885 silly addNameRange     '1.5.0',
+885 silly addNameRange     '1.6.0',
+885 silly addNameRange     '1.6.1',
+885 silly addNameRange     '1.6.2',
+885 silly addNameRange     '1.6.3' ] ]
+886 verbose addNamed [ 'coffee-script', '1.3.3' ]
+887 verbose addNamed [ '1.3.3', '1.3.3' ]
+888 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+889 verbose lock coffee-script@1.3.3 /home/leah/.npm/022c8436-coffee-script-1-3-3.lock
+890 silly lockFile 34a70f1d-connect-livereload-0-2-0 connect-livereload@0.2.0
+891 silly lockFile 34a70f1d-connect-livereload-0-2-0 connect-livereload@0.2.0
+892 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+893 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+894 silly lockFile 78f564f0-connect-livereload-0-2-0 connect-livereload@~0.2.0
+895 silly lockFile 78f564f0-connect-livereload-0-2-0 connect-livereload@~0.2.0
+896 silly lockFile 1729cbdb-connect-2-7-11 connect@~2.7.11
+897 silly lockFile 1729cbdb-connect-2-7-11 connect@~2.7.11
+898 silly lockFile 03f97a6d-open-0-0-4 open@0.0.4
+899 silly lockFile 03f97a6d-open-0-0-4 open@0.0.4
+900 silly resolved [ { name: 'connect-livereload',
+900 silly resolved     description: 'connect middleware for adding the livereload script to the response',
+900 silly resolved     version: '0.2.0',
+900 silly resolved     author: { name: 'Andi Neck', email: 'andi.neck@intesso.com' },
+900 silly resolved     contributors: [ [Object] ],
+900 silly resolved     dependencies: {},
+900 silly resolved     devDependencies: { express: '~3.2.2', supertest: '~0.6.0', mocha: '~1.9.0' },
+900 silly resolved     keywords: [ 'connect', 'livereload', 'live-reload' ],
+900 silly resolved     repository:
+900 silly resolved      { type: 'git',
+900 silly resolved        url: 'git://github.com/intesso/connect-livereload' },
+900 silly resolved     main: 'index',
+900 silly resolved     engines: { node: '*' },
+900 silly resolved     readme: 'connect-livereload\n==================\nconnect middleware for adding the livereload script to the response.\nno browser plugin is needed.\nif you are happy with a browser plugin, then you don\'t need this middleware.\n\n[![Build Status](https://travis-ci.org/intesso/connect-livereload.png)](https://travis-ci.org/intesso/connect-livereload)\n\ninstall\n=======\n```bash\nnpm install connect-livereload --save-dev\n```\n\nuse\n===\nthis middleware can be used with a LiveReload server e.g. [grunt-reload](https://github.com/webxl/grunt-reload).\n\nIn your connect or express application add this after the static and before the dynamic routes:\n```javascript\n  var liveReloadPort = 35729;\n  var excludeList = [\'.woff\', \'.flv\'];\n  \n  app.use(require(\'connect-livereload\')({\n    port: liveReloadPort,\n    excludeList: excludeList\n  }));\n```\n\nplease see the [examples](https://github.com/intesso/connect-livereload/tree/master/examples) for the app and Grunt configuration.\n\n\t\n###note \nif you add this middleware before the static middleware, it will lead to problems. \nIf you can\'t avoid that for some reason, you have to add all of the static file extensions to the `excludeList: [\'.css\', \'.js\', \'.ico\', \'.png\', \'ect...\']`\n\nalternative\n===========\nAn alternative would be to install the [LiveReload browser plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).\n\n\ncredits\n=======\n* The middleware code is mainly extracted from: [grunt-contrib-livereload/util.js](https://github.com/gruntjs/grunt-contrib-livereload/blob/master/lib/utils.js)\n* [LiveReload Creator](http://livereload.com/)\n\ntests\n=====\nrun the tests with \n```\nmocha\n```\n\nlicense\n=======\n[MIT License](https://github.com/intesso/connect-livereload/blob/master/LICENSE)\n',
+900 silly resolved     readmeFilename: 'README.md',
+900 silly resolved     bugs: { url: 'https://github.com/intesso/connect-livereload/issues' },
+900 silly resolved     _id: 'connect-livereload@0.2.0',
+900 silly resolved     _from: 'connect-livereload@~0.2.0' },
+900 silly resolved   { name: 'connect',
+900 silly resolved     version: '2.7.11',
+900 silly resolved     description: 'High performance middleware framework',
+900 silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+900 silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+900 silly resolved     author:
+900 silly resolved      { name: 'TJ Holowaychuk',
+900 silly resolved        email: 'tj@vision-media.ca',
+900 silly resolved        url: 'http://tjholowaychuk.com' },
+900 silly resolved     dependencies:
+900 silly resolved      { qs: '0.6.5',
+900 silly resolved        formidable: '1.0.14',
+900 silly resolved        'cookie-signature': '1.0.1',
+900 silly resolved        'buffer-crc32': '0.2.1',
+900 silly resolved        cookie: '0.0.5',
+900 silly resolved        send: '0.1.1',
+900 silly resolved        bytes: '0.2.0',
+900 silly resolved        fresh: '0.1.0',
+900 silly resolved        pause: '0.0.1',
+900 silly resolved        debug: '*' },
+900 silly resolved     devDependencies: { should: '*', mocha: '*', jade: '*', dox: '*' },
+900 silly resolved     main: 'index',
+900 silly resolved     engines: { node: '>= 0.8.0' },
+900 silly resolved     scripts: { test: 'make' },
+900 silly resolved     readme: '[![build status](https://secure.travis-ci.org/senchalabs/connect.png)](http://travis-ci.org/senchalabs/connect)\n# Connect\n\n  Connect is an extensible HTTP server framework for [node](http://nodejs.org), providing high performance "plugins" known as _middleware_.\n\n Connect is bundled with over _20_ commonly used middleware, including\n a logger, session support, cookie parser, and [more](http://senchalabs.github.com/connect). Be sure to view the 2.x [documentation](http://senchalabs.github.com/connect/).\n\n```js\nvar connect = require(\'connect\')\n  , http = require(\'http\');\n\nvar app = connect()\n  .use(connect.favicon())\n  .use(connect.logger(\'dev\'))\n  .use(connect.static(\'public\'))\n  .use(connect.directory(\'public\'))\n  .use(connect.cookieParser())\n  .use(connect.session({ secret: \'my secret here\' }))\n  .use(function(req, res){\n    res.end(\'Hello from Connect!\\n\');\n  });\n\nhttp.createServer(app).listen(3000);\n```\n\n## Middleware\n\n  - [csrf](http://www.senchalabs.org/connect/csrf.html)\n  - [basicAuth](http://www.senchalabs.org/connect/basicAuth.html)\n  - [bodyParser](http://www.senchalabs.org/connect/bodyParser.html)\n  - [json](http://www.senchalabs.org/connect/json.html)\n  - [multipart](http://www.senchalabs.org/connect/multipart.html)\n  - [urlencoded](http://www.senchalabs.org/connect/urlencoded.html)\n  - [cookieParser](http://www.senchalabs.org/connect/cookieParser.html)\n  - [directory](http://www.senchalabs.org/connect/directory.html)\n  - [compress](http://www.senchalabs.org/connect/compress.html)\n  - [errorHandler](http://www.senchalabs.org/connect/errorHandler.html)\n  - [favicon](http://www.senchalabs.org/connect/favicon.html)\n  - [limit](http://www.senchalabs.org/connect/limit.html)\n  - [logger](http://www.senchalabs.org/connect/logger.html)\n  - [methodOverride](http://www.senchalabs.org/connect/methodOverride.html)\n  - [query](http://www.senchalabs.org/connect/query.html)\n  - [responseTime](http://www.senchalabs.org/connect/responseTime.html)\n  - [session](http://www.senchalabs.org/connect/session.html)\n  - [static](http://www.senchalabs.org/connect/static.html)\n  - [staticCache](http://www.senchalabs.org/connect/staticCache.html)\n  - [vhost](http://www.senchalabs.org/connect/vhost.html)\n  - [subdomains](http://www.senchalabs.org/connect/subdomains.html)\n  - [cookieSession](http://www.senchalabs.org/connect/cookieSession.html)\n\n## Running Tests\n\nfirst:\n\n    $ npm install -d\n\nthen:\n\n    $ make test\n\n## Authors\n\n Below is the output from [git-summary](http://github.com/visionmedia/git-extras).\n\n\n     project: connect\n     commits: 2033\n     active : 301 days\n     files  : 171\n     authors: \n      1414\tTj Holowaychuk          69.6%\n       298\tvisionmedia             14.7%\n       191\tTim Caswell             9.4%\n        51\tTJ Holowaychuk          2.5%\n        10\tRyan Olds               0.5%\n         8\tAstro                   0.4%\n         5\tNathan Rajlich          0.2%\n         5\tJakub Nešetřil          0.2%\n         3\tDaniel Dickison         0.1%\n         3\tDavid Rio Deiros        0.1%\n         3\tAlexander Simmerl       0.1%\n         3\tAndreas Lind Petersen   0.1%\n         2\tAaron Heckmann          0.1%\n         2\tJacques Crocker         0.1%\n         2\tFabian Jakobs           0.1%\n         2\tBrian J Brennan         0.1%\n         2\tAdam Malcontenti-Wilson 0.1%\n         2\tGlen Mailer             0.1%\n         2\tJames Campos            0.1%\n         1\tTrent Mick              0.0%\n         1\tTroy Kruthoff           0.0%\n         1\tWei Zhu                 0.0%\n         1\tcomerc                  0.0%\n         1\tdarobin                 0.0%\n         1\tnateps                  0.0%\n         1\tMarco Sanson            0.0%\n         1\tArthur Taylor           0.0%\n         1\tAseem Kishore           0.0%\n         1\tBart Teeuwisse          0.0%\n         1\tCameron Howey           0.0%\n         1\tChad Weider             0.0%\n         1\tCraig Barnes            0.0%\n         1\tEran Hammer-Lahav       0.0%\n         1\tGregory McWhirter       0.0%\n         1\tGuillermo Rauch         0.0%\n         1\tJae Kwon                0.0%\n         1\tJakub Nesetril          0.0%\n         1\tJoshua Peek             0.0%\n         1\tJxck                    0.0%\n         1\tAJ ONeal                0.0%\n         1\tMichael Hemesath        0.0%\n         1\tMorten Siebuhr          0.0%\n         1\tSamori Gorse            0.0%\n         1\tTom Jensen              0.0%\n\n## Node Compatibility\n\n  Connect `< 1.x` is compatible with node 0.2.x\n\n\n  Connect `1.x` is compatible with node 0.4.x\n\n\n  Connect (_master_) `2.x` is compatible with node 0.6.x\n\n## CLA\n\n [http://sencha.com/cla](http://sencha.com/cla)\n\n## License\n\nView the [LICENSE](https://github.com/senchalabs/connect/blob/master/LICENSE) file. The [Silk](http://www.famfamfam.com/lab/icons/silk/) icons used by the `directory` middleware created by/copyright of [FAMFAMFAM](http://www.famfamfam.com/).\n',
+900 silly resolved     readmeFilename: 'Readme.md',
+900 silly resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+900 silly resolved     _id: 'connect@2.7.11',
+900 silly resolved     _from: 'connect@~2.7.11' },
+900 silly resolved   { name: 'open',
+900 silly resolved     version: '0.0.4',
+900 silly resolved     description: 'open a file or url in the user\'s preferred application',
+900 silly resolved     keywords: [ 'start', 'open', 'browser', 'editor', 'default' ],
+900 silly resolved     homepage: 'https://github.com/jjrdn/node-open',
+900 silly resolved     author: { name: 'J Jordan', email: 'jjrdn@styosis.com' },
+900 silly resolved     license: 'MIT',
+900 silly resolved     contributors: [ [Object] ],
+900 silly resolved     repository: { type: 'git', url: 'https://github.com/pwnall/node-open.git' },
+900 silly resolved     bugs: { url: 'https://github.com/pwnall/node-open/issues' },
+900 silly resolved     engines: { node: '>= 0.6.0' },
+900 silly resolved     dependencies: {},
+900 silly resolved     devDependencies: { mocha: '*' },
+900 silly resolved     optionalDependencies: {},
+900 silly resolved     main: 'lib/open.js',
+900 silly resolved     scripts: { test: 'node_modules/mocha/bin/mocha' },
+900 silly resolved     readme: '# open\n\nOpen a file or url in the user\'s preferred application.\n\n# Usage\n\n```javascript\nvar open = require("open");\nopen("http://www.google.com");\n```\n\n`open` taks an optional argument specifying the program to be used to open the\nfile or URL.\n\n```javascript\nopen("http://www.google.com", "firefox");\n```\n\n# Installation\n\n    npm install open\n\n# How it works\n\n- on `win32` uses `start`\n- on `darwin` uses `open`\n- otherwise uses the `xdg-open` script from [freedesktop.org](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)\n\n# Warning\n\nThe same care should be taken when calling open as if you were calling\n[child_process.exec](http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)\ndirectly. If it is an executable it will run in a new shell.\n',
+900 silly resolved     readmeFilename: 'README.md',
+900 silly resolved     _id: 'open@0.0.4',
+900 silly resolved     _from: 'open@0.0.4' } ]
+901 info install connect-livereload@0.2.0 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+902 info install connect@2.7.11 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+903 info install open@0.0.4 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect
+904 info installOne connect-livereload@0.2.0
+905 info installOne connect@2.7.11
+906 info installOne open@0.0.4
+907 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+908 silly lockFile 644d6e27-dateformat-1-0-2-1-2-3 dateformat@1.0.2-1.2.3
+909 silly lockFile 90249798-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@0.4.0
+910 silly lockFile 90249798-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@0.4.0
+911 silly addNameRange number 2 { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: true }
+912 silly addNameRange versions [ 'async',
+912 silly addNameRange   [ '0.1.0',
+912 silly addNameRange     '0.1.1',
+912 silly addNameRange     '0.1.2',
+912 silly addNameRange     '0.1.3',
+912 silly addNameRange     '0.1.4',
+912 silly addNameRange     '0.1.5',
+912 silly addNameRange     '0.1.6',
+912 silly addNameRange     '0.1.7',
+912 silly addNameRange     '0.1.8',
+912 silly addNameRange     '0.1.9',
+912 silly addNameRange     '0.1.10',
+912 silly addNameRange     '0.1.11',
+912 silly addNameRange     '0.1.12',
+912 silly addNameRange     '0.1.13',
+912 silly addNameRange     '0.1.14',
+912 silly addNameRange     '0.1.15',
+912 silly addNameRange     '0.1.16',
+912 silly addNameRange     '0.1.17',
+912 silly addNameRange     '0.1.18',
+912 silly addNameRange     '0.1.19',
+912 silly addNameRange     '0.1.20',
+912 silly addNameRange     '0.1.21',
+912 silly addNameRange     '0.1.22',
+912 silly addNameRange     '0.2.0',
+912 silly addNameRange     '0.2.1',
+912 silly addNameRange     '0.2.2',
+912 silly addNameRange     '0.2.3',
+912 silly addNameRange     '0.2.4',
+912 silly addNameRange     '0.2.5',
+912 silly addNameRange     '0.2.6',
+912 silly addNameRange     '0.2.7',
+912 silly addNameRange     '0.2.8',
+912 silly addNameRange     '0.2.9' ] ]
+913 verbose addNamed [ 'async', '0.1.22' ]
+914 verbose addNamed [ '0.1.22', '0.1.22' ]
+915 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+916 verbose lock async@0.1.22 /home/leah/.npm/09d21715-async-0-1-22.lock
+917 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect-livereload unbuild
+918 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect unbuild
+919 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/open unbuild
+920 silly lockFile e9e21454-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@~0.4.0
+921 silly lockFile e9e21454-grunt-lib-phantomjs-0-4-0 grunt-lib-phantomjs@~0.4.0
+922 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+923 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+924 silly resolved [ { name: 'grunt-lib-phantomjs',
+924 silly resolved     description: 'Grunt and PhantomJS, sitting in a tree.',
+924 silly resolved     version: '0.4.0',
+924 silly resolved     homepage: 'http://github.com/gruntjs/grunt-lib-phantomjs',
+924 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+924 silly resolved     repository:
+924 silly resolved      { type: 'git',
+924 silly resolved        url: 'git://github.com/gruntjs/grunt-lib-phantomjs.git' },
+924 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-lib-phantomjs/issues' },
+924 silly resolved     licenses: [ [Object] ],
+924 silly resolved     engines: { node: '>= 0.6.0' },
+924 silly resolved     scripts: { test: 'grunt test' },
+924 silly resolved     dependencies:
+924 silly resolved      { eventemitter2: '~0.4.9',
+924 silly resolved        semver: '~1.0.14',
+924 silly resolved        temporary: '~0.0.4',
+924 silly resolved        phantomjs: '~1.9.0-1' },
+924 silly resolved     devDependencies:
+924 silly resolved      { 'grunt-contrib-jshint': '~0.6.2',
+924 silly resolved        grunt: '~0.4.0',
+924 silly resolved        difflet: '~0.2.3' },
+924 silly resolved     main: 'lib/phantomjs',
+924 silly resolved     files: [ 'lib', 'phantomjs' ],
+924 silly resolved     readme: '# grunt-lib-phantomjs\n\n> Grunt and PhantomJS, sitting in a tree.\n\n## Usage\n\nThe best way to understand how this lib should be used is by looking at the [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) plugin. Mainly, look at how [the lib is required](https://github.com/gruntjs/grunt-contrib-qunit/blob/d99291713d32f84e50303d6e51eb2dab40b1deb6/tasks/qunit.js#L17), how [event handlers are bound](https://github.com/gruntjs/grunt-contrib-qunit/blob/d99291713d32f84e50303d6e51eb2dab40b1deb6/tasks/qunit.js#L61-L144) and how [PhantomJS is actually spawned](https://github.com/gruntjs/grunt-contrib-qunit/blob/d99291713d32f84e50303d6e51eb2dab40b1deb6/tasks/qunit.js#L177-L190).\n\nAlso, in the case of the grunt-contrib-qunit plugin, it\'s important to know that the page being loaded into PhantomJS *doesn\'t* know it will be loaded into PhantomJS, and as such doesn\'t have any PhantomJS->Grunt code in it. That communication code, aka. the ["bridge"](https://github.com/gruntjs/grunt-contrib-qunit/blob/d99291713d32f84e50303d6e51eb2dab40b1deb6/phantomjs/bridge.js), is dynamically [injected into the html page](https://github.com/gruntjs/grunt-contrib-qunit/blob/d99291713d32f84e50303d6e51eb2dab40b1deb6/tasks/qunit.js#L152).\n\n## An inline example\n\nIf a Grunt task looked something like this:\n\n```js\ngrunt.registerTask(\'mytask\', \'Integrate with phantomjs.\', function() {\n  var phantomjs = require(\'grunt-lib-phantomjs\').init(grunt);\n  var errorCount = 0;\n\n  // Handle any number of namespaced events like so.\n  phantomjs.on(\'mytask.ok\', function(msg) {\n    grunt.log.writeln(msg);\n  });\n\n  phantomjs.on(\'mytask.error\', function(msg) {\n    errorCount++;\n    grunt.log.error(msg);\n  });\n\n  // Create some kind of "all done" event.\n  phantomjs.on(\'mytask.done\', function() {\n    phantomjs.halt();\n  });\n\n  // Built-in error handlers.\n  phantomjs.on(\'fail.load\', function(url) {\n    phantomjs.halt();\n    grunt.warn(\'PhantomJS unable to load URL.\');\n  });\n\n  phantomjs.on(\'fail.timeout\', function() {\n    phantomjs.halt();\n    grunt.warn(\'PhantomJS timed out.\');\n  });\n\n  // This task is async.\n  var done = this.async();\n\n  // Spawn phantomjs\n  phantomjs.spawn(\'test.html\', {\n    // Additional PhantomJS options.\n    options: {},\n    // Complete the task when done.\n    done: function(err) {\n      done(err || errorCount === 0);\n    }\n  });\n\n});\n```\n\nAnd `test.html` looked something like this (note the "bridge" is hard-coded into this page and not injected):\n\n```html\n<!doctype html>\n<html>\n<head>\n<script>\n\n// Send messages to the parent PhantomJS process via alert! Good times!!\nfunction sendMessage() {\n  var args = [].slice.call(arguments);\n  alert(JSON.stringify(args));\n}\n\nsendMessage(\'mytask.ok\', \'Something worked.\');\nsendMessage(\'mytask.error\', \'Something failed.\');\nsendMessage(\'mytask.done\');\n\n</script>\n</head>\n<body>\n</body>\n</html>\n```\n\nThen running Grunt would behave something like this:\n\n```shell\n$ grunt mytask\nRunning "mytask" task\nSomething worked.\n>> Something failed.\nWarning: Task "mytask" failed. Use --force to continue.\n\nAborted due to warnings.\n```\n\n## OS Dependencies\nPhantomJS requires these dependencies\n**On Ubuntu/Debian**\n  apt-get install libfontconfig1 fontconfig libfontconfig1-dev libfreetype6-dev\n\n## Release History\n\n* 2013-08-02 - v0.4.0 - /34 /18 /24 merged\n* 2013-02-28 - v0.3.0 - Use PhantomJS 1.9.0-1.\n* 2013-02-28 - v0.2.0 - Use PhantomJS 1.8.1.\n* 2012-12-21 - v0.1.0 - Use PhantomJS 1.7.0.\n',
+924 silly resolved     readmeFilename: 'README.md',
+924 silly resolved     _id: 'grunt-lib-phantomjs@0.4.0',
+924 silly resolved     _from: 'grunt-lib-phantomjs@~0.4.0' } ]
+925 info install grunt-lib-phantomjs@0.4.0 into /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit
+926 info installOne grunt-lib-phantomjs@0.4.0
+927 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+928 silly lockFile f29bff6b-colors-0-6-0-1 colors@~0.6.0-1
+929 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+930 silly lockFile 2bed8da6-eventemitter2-0-4-13 eventemitter2@0.4.13
+931 info /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs unbuild
+932 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+933 silly lockFile 70573e74-eventemitter2-0-4-9 eventemitter2@~0.4.9
+934 verbose tar unpack /home/leah/.npm/connect-livereload/0.2.0/package.tgz
+935 silly lockFile 65767efd--node-modules-connect-livereload tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect-livereload
+936 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect-livereload /home/leah/.npm/65767efd--node-modules-connect-livereload.lock
+937 silly lockFile 584177c5-ect-livereload-0-2-0-package-tgz tar:///home/leah/.npm/connect-livereload/0.2.0/package.tgz
+938 verbose lock tar:///home/leah/.npm/connect-livereload/0.2.0/package.tgz /home/leah/.npm/584177c5-ect-livereload-0-2-0-package-tgz.lock
+939 verbose tar unpack /home/leah/.npm/connect/2.7.11/package.tgz
+940 silly lockFile e5ee72ad-rib-connect-node-modules-connect tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect
+941 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/connect /home/leah/.npm/e5ee72ad-rib-connect-node-modules-connect.lock
+942 silly lockFile b01d4c05-h-npm-connect-2-7-11-package-tgz tar:///home/leah/.npm/connect/2.7.11/package.tgz
+943 verbose lock tar:///home/leah/.npm/connect/2.7.11/package.tgz /home/leah/.npm/b01d4c05-h-npm-connect-2-7-11-package-tgz.lock
+944 verbose tar unpack /home/leah/.npm/open/0.0.4/package.tgz
+945 silly lockFile 324df54c-ontrib-connect-node-modules-open tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/open
+946 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-connect/node_modules/open /home/leah/.npm/324df54c-ontrib-connect-node-modules-open.lock
+947 silly lockFile d946994e--leah-npm-open-0-0-4-package-tgz tar:///home/leah/.npm/open/0.0.4/package.tgz
+948 verbose lock tar:///home/leah/.npm/open/0.0.4/package.tgz /home/leah/.npm/d946994e--leah-npm-open-0-0-4-package-tgz.lock
+949 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+950 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+951 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+952 silly lockFile 5d877021-iconv-lite-0-2-11 iconv-lite@0.2.11
+953 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+954 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+955 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+956 silly lockFile 16b89810-minimatch-0-2-12 minimatch@0.2.12
+957 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+958 silly lockFile ca9efaa1-iconv-lite-0-2-5 iconv-lite@~0.2.5
+959 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+960 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+961 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+962 silly lockFile 5922ee11-minimatch-0-2-6 minimatch@~0.2.6
+963 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+964 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+965 verbose tar unpack /home/leah/.npm/grunt-lib-phantomjs/0.4.0/package.tgz
+966 silly lockFile f5381b00-node-modules-grunt-lib-phantomjs tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs
+967 verbose lock tar:///home/leah/Code/NSS-FrontEnd/Test-Grunt-Working/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs /home/leah/.npm/f5381b00-node-modules-grunt-lib-phantomjs.lock
+968 silly lockFile c1ef7be4--lib-phantomjs-0-4-0-package-tgz tar:///home/leah/.npm/grunt-lib-phantomjs/0.4.0/package.tgz
+969 verbose lock tar:///home/leah/.npm/grunt-lib-phantomjs/0.4.0/package.tgz /home/leah/.npm/c1ef7be4--lib-phantomjs-0-4-0-package-tgz.lock
+970 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+971 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+972 silly lockFile 9802d919-lodash-0-9-2 lodash@0.9.2
+973 silly lockFile 9802d919-lodash-0-9-2 lodash@0.9.2
+974 silly gunzTarPerm modes [ '755', '644' ]
+975 silly gunzTarPerm modes [ '755', '644' ]
+976 silly gunzTarPerm modes [ '755', '644' ]
+977 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+978 silly lockFile 79f78dba-nopt-1-0-10 nopt@~1.0.10
+979 silly lockFile 5c083954-underscore-string-2-2-1 underscore.string@2.2.1
+980 silly lockFile 5c083954-underscore-string-2-2-1 underscore.string@2.2.1
+981 silly lockFile 429879b8-lodash-0-9-0 lodash@~0.9.0
+982 silly lockFile 429879b8-lodash-0-9-0 lodash@~0.9.0
+983 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+984 silly lockFile 0aecb717-js-yaml-2-0-5 js-yaml@2.0.5
+985 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+986 silly lockFile d5a5a3c6-underscore-string-2-2-0rc underscore.string@~2.2.0rc
+987 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+988 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+989 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+990 silly lockFile 0dc3e23f-js-yaml-2-0-2 js-yaml@~2.0.2
+991 silly gunzTarPerm modes [ '755', '644' ]
+992 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+993 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+994 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+995 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+996 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+997 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+998 silly gunzTarPerm extractEntry package.json
+999 silly gunzTarPerm extractEntry package.json
+1000 silly gunzTarPerm extractEntry package.json
+1001 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+1002 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+1003 silly gunzTarPerm extractEntry package.json
+1004 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+1005 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+1006 silly gunzTarPerm extractEntry .npmignore
+1007 silly gunzTarPerm extractEntry README.md
+1008 silly gunzTarPerm extractEntry .npmignore
+1009 silly gunzTarPerm extractEntry LICENSE
+1010 silly gunzTarPerm extractEntry .npmignore
+1011 silly gunzTarPerm extractEntry README.md
+1012 silly gunzTarPerm extractEntry README.md
+1013 silly gunzTarPerm extractEntry lib/phantomjs.js
+1014 error network getaddrinfo ENOTFOUND
+1014 error network This is most likely not a problem with npm itself
+1014 error network and is related to network connectivity.
+1014 error network In most cases you are behind a proxy or have bad network settings.
+1014 error network
+1014 error network If you are behind a proxy, please make sure that the
+1014 error network 'proxy' config is set properly.  See: 'npm help config'
+1015 error System Linux 3.8.0-30-generic
+1016 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+1017 error cwd /home/leah/Code/NSS-FrontEnd/Test-Grunt-Working
+1018 error node -v v0.10.20
+1019 error npm -v 1.3.11
+1020 error syscall getaddrinfo
+1021 error code ENOTFOUND
+1022 error errno ENOTFOUND
+1023 verbose exit [ 1, true ]
